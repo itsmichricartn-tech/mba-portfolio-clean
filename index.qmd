@@ -1,31 +1,35 @@
 ---
 title: "Home"
+body-classes: home
 ---
 
-<section class="soft-hero">
-  <div style="display:flex; gap:1rem; align-items:center; margin-bottom:1rem;">
-    <img src="headshot.jpg" alt="Professional headshot of Michelle Marie Ricart" style="width:120px;height:120px;border-radius:50%;object-fit:cover;box-shadow:0 8px 30px rgba(0,0,0,.08);">
-    <div>
-      <h1 style="margin:0;">Michelle Marie Ricart Naranjo</h1>
-      <p style="margin:.25rem 0 0 0;"><em>MBA Candidate · University Canada West (UCW) · Vancouver, BC</em></p>
-    </div>
-  </div>
+<div class="soft-hero lush">
+  <img src="headshot.jpg" alt="Professional headshot of Michelle Marie Ricart" class="headshot" width="148" height="148">
+  <h1>Michelle Marie Ricart Naranjo</h1>
+  <p><em>MBA Candidate · University Canada West (UCW) · Vancouver, BC</em></p>
 
   <p>
-    People-centric HR professional with experience in <strong>Compensation & Benefits</strong>, employee services, and onboarding.
-    I turn complex information into clear, actionable decisions and I’m currently expanding my <strong>culinary</strong> skills in Vancouver.
+    People-centric HR professional with experience in <strong>Compensation &amp; Benefits</strong>,
+    employee services, and onboarding. I turn complex information into clear, actionable decisions,
+    and I’m currently expanding my <strong>culinary skills</strong> in Vancouver.
   </p>
 
-  <div style="display:flex; gap:.75rem; flex-wrap:wrap; margin-top:.75rem;">
+  <p class="footer-cta">
     <a class="btn btn-primary" href="resume.html" role="button">View Resume</a>
     <a class="btn btn-outline-secondary" href="projects.html" role="button">View Projects</a>
-    <a class="btn btn-outline-secondary" href="MichelleRicart_Resume.pdf" role="button" target="_blank" rel="noopener">Download PDF</a>
-  </div>
-</section>
+    <a class="btn btn-outline-secondary" href="MichelleRicart_Resume.pdf" role="button">Download PDF</a>
+  </p>
+</div>
 
 ## Highlights
-- 3+ years in HR at Shell (Dominican Republic): employee service, documentation, and monthly metrics.  
-- Experience in fast-paced culinary operations focused on organization, teamwork, and quality.
+- 3+ years in HR at Shell Dominican Republic — employee service, documentation, and monthly metrics.
+- Culinary practice in high-speed environments focused on quality and teamwork.
 
-## Focus right now
-- HR in Canada · Employee Experience · HR Analytics · Clear documentation & dashboards
+## Bilingual
+- Spanish (Native)  
+- English (Second Language)
+
+## Recent Focus
+- People leadership in multicultural contexts.  
+- Documentation and dashboards for decision-making.  
+- Building my personal brand with Quarto.

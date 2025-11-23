@@ -74,21 +74,28 @@
     "href": "index.html",
     "title": "Home",
     "section": "",
-    "text": "&lt;img src=\"headshot.jpg\" alt=\"Professional headshot of Michelle Marie Ricart\" style=\"width:120px;height:120px;border-radius:50%;object-fit:cover;box-shadow:0 8px 30px rgba(0,0,0,.08);\"&gt;\n&lt;div&gt;\n  &lt;h1 style=\"margin:0;\"&gt;Michelle Marie Ricart Naranjo&lt;/h1&gt;\n  &lt;p style=\"margin:.25rem 0 0 0;\"&gt;&lt;em&gt;MBA Candidate · University Canada West (UCW) · Vancouver, BC&lt;/em&gt;&lt;/p&gt;\n&lt;/div&gt;\n\n\nPeople-centric HR professional with experience in Compensation & Benefits, employee services, and onboarding. I turn complex information into clear, actionable decisions and I’m currently expanding my culinary skills in Vancouver.\n\n\n&lt;a class=\"btn btn-primary\" href=\"resume.html\" role=\"button\"&gt;View Resume&lt;/a&gt;\n&lt;a class=\"btn btn-outline-secondary\" href=\"projects.html\" role=\"button\"&gt;View Projects&lt;/a&gt;\n&lt;a class=\"btn btn-outline-secondary\" href=\"MichelleRicart_Resume.pdf\" role=\"button\" target=\"_blank\" rel=\"noopener\"&gt;Download PDF&lt;/a&gt;"
+    "text": "MBA Candidate · University Canada West (UCW) · Vancouver, BC\n\n\nPeople-centric HR professional with experience in Compensation & Benefits, employee services, and onboarding. I turn complex information into clear, actionable decisions, and I’m currently expanding my culinary skills in Vancouver.\n\n\nView Resume View Projects Download PDF"
   },
   {
     "objectID": "index.html#highlights",
     "href": "index.html#highlights",
     "title": "Home",
     "section": "Highlights",
-    "text": "Highlights\n\n3+ years in HR at Shell (Dominican Republic): employee service, documentation, and monthly metrics.\n\nExperience in fast-paced culinary operations focused on organization, teamwork, and quality."
+    "text": "Highlights\n\n3+ years in HR at Shell Dominican Republic — employee service, documentation, and monthly metrics.\nCulinary practice in high-speed environments focused on quality and teamwork."
   },
   {
-    "objectID": "index.html#focus-right-now",
-    "href": "index.html#focus-right-now",
+    "objectID": "index.html#bilingual",
+    "href": "index.html#bilingual",
     "title": "Home",
-    "section": "Focus right now",
-    "text": "Focus right now\n\nHR in Canada · Employee Experience · HR Analytics · Clear documentation & dashboards"
+    "section": "Bilingual",
+    "text": "Bilingual\n\nSpanish (Native)\n\nEnglish (Second Language)"
+  },
+  {
+    "objectID": "index.html#recent-focus",
+    "href": "index.html#recent-focus",
+    "title": "Home",
+    "section": "Recent Focus",
+    "text": "Recent Focus\n\nPeople leadership in multicultural contexts.\n\nDocumentation and dashboards for decision-making.\n\nBuilding my personal brand with Quarto."
   },
   {
     "objectID": "projects.html",
