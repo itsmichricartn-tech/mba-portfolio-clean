@@ -94,3 +94,21 @@ body.reflection h2::after{ background: linear-gradient(90deg, var(--gold), var(-
 .reveal { opacity:1; transform:none; }
 .js .reveal { opacity:0; transform: translateY(10px); transition: opacity .45s, transform .45s; }
 .js .reveal.reveal-in { opacity:1; transform:none; }
+
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem}
+.card{background:#fff;border-radius:1rem;padding:1rem;box-shadow:0 10px 20px rgba(0,0,0,.06)}
+.card h3{margin:0 0 .5rem 0}
+.badges{
+  display:flex;
+  flex-wrap:wrap;
+  gap:.5rem;
+  margin-top:.25rem;
+}
+.badge{
+  padding:.35rem .6rem;
+  border-radius:9999px;
+  font-weight:600;
+  font-size:.95rem;
+  background:#eef2ff;          /* pasteles */
+  border:1px solid #e6e8ff;
+}

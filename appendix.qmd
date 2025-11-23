@@ -1,128 +1,190 @@
 ---
-title: "Appendix — LLM Site Map, Prompts, Drafts & Revisions"
+title: "Appendix — LLM Artifacts & Revisions"
 body-classes: appendix
 toc: true
+number-sections: false
+format:
+  html:
+    theme: litera
 ---
-
-> **Purpose / Disclosure.** This appendix preserves my LLM-assisted site map, prompts, and initial drafts, with annotations that show how I revised the content before publishing. All published pages were edited for accuracy, tone, and fit.
 
 ## A) Site Map (LLM Brainstorm → Final)
 
+**Context:** Drafted with ChatGPT (GPT-5 Thinking) on 2025-11-22. Purpose: plan a multi-page MBA portfolio for Assignment 3.
+
 **LLM Brainstorm (verbatim):**
+1) Home/About — short positioning and CTAs.  
+2) Resume — education, roles, selected skills.  
+3) Projects/Case Studies — 3–5 cards with overview/role/outcome.  
+4) Skills & Certifications — badges + small list of tools.  
+5) Contact — location, email, LinkedIn, resume download.  
+6) Optional: Reflection on learning and authentic use of LLMs.  
+7) Optional: Appendix with prompts and outputs for transparency.
 
 **Final site structure (published):**
-- Home
-- Resume
-- Projects / Case Studies
-- Skills & Certifications
-- Contact
-- Reflection
-- Appendix
+- [Home](index.qmd)  
+- [Resume](resume.qmd)  
+- [Projects / Case Studies](projects.qmd)  
+- [Skills & Certifications](skills.qmd)  
+- [Contact](contact.qmd)  
+- [Reflection](reflection.qmd)  
+- [Appendix](appendix.qmd)
 
 **Notes (Kept / Edited / Removed):**
-- **Kept:** Core five pages (Home, Resume, Projects, Skills, Contact).
-- **Edited:** Added **Reflection** and **Appendix** for transparency and assignment requirements.
-- **Removed:** Leadership/Community/Publication (deferred for a future update).
+- **Kept:** Core five pages (Home, Resume, Projects, Skills, Contact).  
+- **Edited:** Added **Reflection** and **Appendix** to meet assignment requirements and improve transparency.  
+- **Removed / Deferred:** Leadership / Community / Publications (planned for a future iteration).
 
 ---
 
 ## B) Prompts I Provided to the LLM (Selected, Verbatim)
 
 ### B1. Global Structure Prompt
+You are a UX-savvy writing assistant helping me build a clean, professional multi-page MBA portfolio with Quarto.
+Deliverables:
+
+A site map with 6–7 pages: Home, Resume, Projects, Skills & Certifications, Contact, Reflection, Appendix.
+
+A Quarto navbar outline (file names like index.qmd, resume.qmd, etc.).
+
+One 10–15 word description per page.
+Style: concise, practical, business-ready; avoid hype. Output in Markdown only.
 
 ### B2. Home/About Tone Prompt
+```text
+You are a friendly, UX-savvy writing assistant. Rewrite a short Home/About intro (3–5 sentences).
+Goals: approachable, competent, people-centric HR + current culinary practice in Vancouver.
+Must include: name, MBA Candidate at University Canada West (Vancouver, BC); strengths in Compensation & Benefits, employee services, onboarding; values of clarity, service, and reliable processes; CTAs: “View Resume”, “View Projects”, “Download PDF”.
+Output: ≤2 short paragraphs, no emojis, no hype.
+
 
 ### B3. Resume Tightening Prompt
+Tighten resume bullets for these roles (keep employer/location/dates as given):
+- Compensation & Benefits Analyst — Shell Licensee (Santo Domingo, DR) (Dec 2021–Sep 2024)
+- General Analyst — Shell Licensee (Dec 2021–Aug 2024)
+- Cook — Guilt and Co (Vancouver, Oct 2025–Present)
+- Line Cook — Six Acres (Mar–May 2025)
+- Plater — Fed (Mar–Sep 2025)
+- Stock Service — ZARA (Nov 2019–Nov 2021)
+
+Rules: 2–3 bullets per role; action-first verbs; clear outcome/impact where possible; ≤140 characters per bullet; no fluff.
+Output only Markdown lists under each role title.
 
 ### B4. Projects Formatting Prompt
+Turn each project into a compact card with three fields:
+• Overview (1–2 sentences)
+• Role (my contribution)
+• Outcome (practical result)
+Return plain HTML with three <div class="card"> blocks that drop into a Quarto page.
 
 ### B5. Skills/Badges Prompt
+Return a single Markdown block with inline “badges” for core HR and professional skills.  
+Format each badge as: `<span class="badge">Skill Name</span>` separated by spaces/newlines.  
+Include: Compensation & Benefits, Employee Services, Onboarding, Internal Communications, Excel (dashboards), Time Management, Problem-Solving, Teamwork, Customer Service, Spanish & English.  
+Do not add explanations—badges only.
 
 ### B6. Reflection Prompt
+Write a 300–500 word reflection about building a multi-page MBA portfolio with Quarto and LLMs.  
+Cover: (1) what improved when adding pages, (2) how you verified authenticity/accuracy, (3) limits/risks of LLMs and how you mitigated them (citations, manual review, dated notes, style control), (4) what you’d iterate next (accessibility, performance, content depth).  
+Tone: honest, specific, first person. Output in Markdown (no title).
 
 ---
 
-## C) LLM Drafts by Page (Verbatim Excerpts) + My Annotations
+## C) Selected LLM Output (Snippets)
 
-> **How to read this section:** I paste the raw LLM excerpt in a gray code block, then list what I **Kept**, **Edited**, or **Removed** before publishing.
+### C1. Global Structure (excerpt)
+> **Home:** concise positioning + 3 CTAs.  
+> **Resume:** education, roles, selected skills.  
+> **Projects:** 3 cards with overview / role / outcome.  
+> **Skills:** badges + tools.  
+> **Contact:** email, LinkedIn, location, PDF link.  
+> **Reflection:** 300–500 words on LLM use + authenticity.  
+> **Appendix:** prompts & outputs, clearly labeled.
 
-### C1. Home (Draft → Published)
+### C2. Home/About Intro (used with light edits)
+People-centric HR professional with experience in **Compensation & Benefits**, employee services, and onboarding. I turn complex information into clear, actionable decisions and I’m currently expanding my culinary skills in Vancouver. My value promise: reliable processes, respectful service, and documentation that helps teams move faster with confidence.  
+**CTAs:** View Resume · See Projects · Download PDF.
 
-**LLM Draft (verbatim excerpt):**
+### C3. Resume Bullet Tightening (example applied)
+**Compensation & Benefits Analyst — Shell Licensee (Dec 2021–Sep 2024)**
+- Resolved employee inquiries on benefits/payroll/policies, improving response consistency and perceived service quality.  
+- Coordinated labour-ministry documentation, reducing certification turnaround time and rework.  
+- Prepared letters, contracts, and official communications with version control and correct formatting.
 
-**My Edits (Kept / Edited / Removed):**
-- **Kept:** People-centric framing; C&B emphasis; Vancouver context; calls-to-action.
-- **Edited:** Shortened sentences; added UCW mention; aligned tone with my voice.
-- **Removed:** Vague phrases without evidence.
 
----
+### C5. Skills/Badges line (used)
 
-### C2. Resume (Draft → Published)
+```html
+<div class="badges">
+  <span class="badge">Compensation & Benefits</span>
+  <span class="badge">Employee Services</span>
+  <span class="badge">Onboarding</span>
+  <span class="badge">Internal Communications</span>
+  <span class="badge">Excel (dashboards)</span>
+  <span class="badge">Time Management</span>
+  <span class="badge">Problem-Solving</span>
+  <span class="badge">Teamwork</span>
+  <span class="badge">Customer Service</span>
+  <span class="badge">Spanish & English</span>
+</div>
 
-**LLM Draft bullets (verbatim):**
 
-**My Edits:**
-- **Kept:** Action→result structure; focus on Compensation & Benefits and employee services.
-- **Edited:** Titles, dates, scope, and tools to match my records; tightened verbs.
-- **Removed:** Any outcomes I could not verify.
+## D) AI Use & APA Citations
 
----
+### D1. Generative-AI Use Statement
+I used ChatGPT (**GPT-5 Thinking**) to support this assignment in bounded, transparent ways:
 
-### C3. Projects / Case Studies (Draft → Published)
+- **Brainstorming & structure:** initial site map and page outlines; I reviewed, reordered, and finalized navigation.
+- **Copy help:** tone tightening and readability edits for *Home*, *Projects*, and *Skills*; I verified accuracy and rewrote where needed.
+- **Code snippets:** Quarto/Markdown scaffolds and small CSS utilities (badges, soft-hero gradient). I tested and adjusted locally.
+- **Documentation hygiene:** selected prompts and outputs are included in **Appendix B–C**; diffs and rationales are noted inline.
 
-**LLM Draft (template + samples, verbatim):**
+**Limits & authenticity.** All facts (education, work history, skills) reflect my real background. I verified every claim, removed hallucinations, and kept authorship control. The website is built locally with Quarto and published via GitHub Pages. I am accountable for the final content.
 
-**My Edits:**
-- **Kept:** Overview/Role/Outcome structure; three-card layout.
-- **Edited:** Clarified academic context; trimmed jargon; aligned scope to my contributions.
-- **Removed:** Implied metrics I don’t yet have.
+**Data & privacy.** No private or sensitive data was shared in prompts. No proprietary data was uploaded.
 
----
-
-### C4. Skills & Certifications (Draft → Published)
-
-**LLM Draft (verbatim):**
-
-**My Edits:**
-- **Kept:** Skill list and grouping.
-- **Edited:** Order and badge styling for scannability.
-- **Removed:** Duplicates.
-
----
-
-### C5. Contact (Draft → Published)
-
-**LLM Draft (verbatim):**
-
-**My Edits:**
-- **Kept:** Items and labels.
-- **Edited:** Accessibility attributes (rel="noopener", aria-labels); verified links/file names.
-- **Removed:** None.
+**Reproducibility.** **Model & session:** ChatGPT (*GPT-5 Thinking*), Nov 2025. Prompts are archived locally and representative excerpts are shown in **Appendix B**; selected model outputs are in **Appendix C**.
 
 ---
 
-### C6. Reflection (Draft → Published)
+### D2. APA-Style References (samples)
 
-**LLM Draft (verbatim excerpt):**
+- OpenAI. (2025). *ChatGPT (Nov 2025 version) [Large language model].* https://chat.openai.com/
+- Posit Software, PBC. (2025). *Quarto documentation: Websites.* https://quarto.org/docs/websites/
+- American Psychological Association. (2020). *Publication manual of the American Psychological Association* (7th ed.).
 
-**My Edits:**
-- **Kept:** Core claims about workflow and benefits.
-- **Edited:** Structured into short paragraphs; added integrity steps and specific improvements.
-- **Removed:** Redundancy and vague language.
+*In-text examples:* (OpenAI, 2025), (Posit Software, 2025).
+
+
+## E) Change Log & Rationale
+
+**E1. Major edits across drafts**
+- **Home:** Replaced long intro with a concise value statement; added clear CTAs (View Resume, Projects, Download PDF).
+- **Resume:** Tightened bullets to action-first outcomes; limited to 2–3 bullets/role; removed filler.
+- **Projects:** Standardized 3-card layout (Overview · Role · Outcome) for quick scanning.
+- **Skills & Certifications:** Switched to compact “badges” for readability on mobile.
+- **Contact:** Simplified to essentials (location, email, LinkedIn, resume link).
+- **Theme/UX:** Added soft gradient background, improved spacing, and consistent heading scale.
+
+**E2. Why these changes? (Rationales)**
+- **Clarity & scannability:** Recruiters skim; compact sections and consistent patterns reduce cognitive load.
+- **Outcome focus:** Bullets emphasize impact, not tasks—clearer value for HR roles.
+- **Accessibility:** Larger line-height, badge contrast, and predictable navigation improve readability.
+- **Authenticity:** All facts (work history, skills) were verified and kept in my own voice.
+
+**E3. What I did NOT include (and why)**
+- **Leadership/Community/Publication pages:** Deferred to future iterations to keep scope manageable and maintain quality.
+- **Long-form narrative:** Avoided long paragraphs in Resume/Projects to favor scannable content.
+
+**E4. Risks & mitigations**
+- **Risk:** Visual polish might distract from content.  
+  **Mitigation:** Kept color accents subtle, prioritized typography and spacing.
+- **Risk:** Overfitting to one audience.  
+  **Mitigation:** Kept language professional-general; industry specifics live inside project cards.
+
+**E5. Evidence of authorship**
+- All data points (dates, roles, responsibilities) map to my CV and personal records.
+- Prompts and selected outputs are archived in this Appendix (Sections B–C).
+- Local build logs and commit history show progressive edits (see Git history timeline).
 
 ---
-
-## D) AI Use & Integrity Statement + Revision Log
-
-**Integrity Statement.** I used ChatGPT to brainstorm site structure, generate first-draft text (Home intro, Resume bullet tightening, Projects templates), and polish language. I verified all facts (dates, titles, employers, locations, tools) against my records, avoided confidential details, and removed any unverified claims. This appendix includes prompts and drafts (verbatim) and my edits (Kept / Edited / Removed). Final published content is in my own words.
-
-**Revision Log (key changes):**
-
-| Area | Kept | Edited | Removed | Rationale |
-|---|---|---|---|---|
-| Home | People-centric, C&B focus | Tone; UCW/Vancouver mention; CTAs | Generic phrases | Fit to profile; clarity |
-| Resume | Action→result bullets | Dates/titles/tools; verbs | Unverifiable outcomes | Accuracy & evidence |
-| Projects | Overview/Role/Outcome | Context; plain language | Jargon/overstatement | Comparable, scannable |
-| Skills | Skill list | Order; badge styling | Duplicates | Recruiter-friendly scan |
-| Contact | Items & labels | A11y attributes; links | — | Usability & accessibility |
-| Reflection | Workflow insights | Integrity steps; specifics | Redundancy | Transparency & rigor |
