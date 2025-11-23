@@ -1,10 +1,15 @@
 project:
   type: website
-  output-dir: docs   # GitHub Pages publicará la carpeta "docs"
+  output-dir: docs
+  resources:
+    - headshot.jpg
+    - MichelleRicart_Resume.pdf
 
 website:
   title: "Michelle Marie Ricart — MBA Portfolio"
   favicon: headshot.jpg
+  site-url: https://itsmichricartn-tech.github.io/mba-portfolio-clean/
+  search: true
   navbar:
     logo: headshot.jpg
     left:
@@ -26,13 +31,18 @@ website:
   page-footer:
     center: "© 2025 Michelle Marie Ricart"
 
+
 format:
   html:
     theme: litera
     css: styles.css
     toc: true
     toc-location: right
-    include-after-body: "includes/scripts.html"
+    smooth-scroll: true
+
+execute:
+  freeze: auto
+
 
 
 
