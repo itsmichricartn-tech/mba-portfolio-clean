@@ -1,0 +1,26 @@
+{
+  "appendix.qmd": {
+    "appendix.html": "9f9b213a"
+  },
+  "contact.qmd": {
+    "contact.html": "b00a6af2"
+  },
+  "index.qmd": {
+    "index.html": "b20a6eb5"
+  },
+  "mba-portfolio-clean.qmd": {
+    "mba-portfolio-clean.html": "df790118"
+  },
+  "projects.qmd": {
+    "projects.html": "ec80dabb"
+  },
+  "reflection.qmd": {
+    "reflection.html": "92cacb13"
+  },
+  "resume.qmd": {
+    "resume.html": "a78a12bf"
+  },
+  "skills.qmd": {
+    "skills.html": "9e7ebe08"
+  }
+}

@@ -1,0 +1,20 @@
+---
+title: "Skills & Certifications"
+body-classes: skills
+---
+
+### Core Skills
+<span class="badge">Compensation & Benefits</span>
+<span class="badge">Employee Services</span>
+<span class="badge">Onboarding</span>
+<span class="badge">Internal Communications</span>
+<span class="badge">Excel (dashboards)</span>
+<span class="badge">Time Management</span>
+<span class="badge">Problem-Solving</span>
+<span class="badge">Teamwork</span>
+<span class="badge">Customer Service</span>
+<span class="badge">Spanish & English</span>
+
+### Certifications
+- FoodSafe Level 1 — *June 2025*
+- HR/People Ops coursework — *2023*

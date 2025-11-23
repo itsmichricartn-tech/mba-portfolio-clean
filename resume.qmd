@@ -1,0 +1,29 @@
+---
+title: "Resume"
+body-classes: resume
+---
+
+## Education
+- **MBA (in progress)** — University Canada West (UCW), Vancouver, BC  
+- **Pathway III (Proficiency)** — ILAC, Jul 2024  
+- **B.Sc. in Industrial Psychology** — Universidad Pedro Henríquez Ureña (UNPHU), Apr 2023  
+
+## Professional Experience
+### Human Resources — Shell Licensee (Santo Domingo, DR)
+**Compensation & Benefits Analyst** (Dec 2021 – Sep 2024)  
+- Responded to benefits/payroll/policy inquiries; improved service satisfaction.  
+- Coordinated documentation with the Ministry of Labour; faster certifications.  
+- Prepared letters, contracts, and official communications.
+
+**General Analyst** (Dec 2021 – Aug 2024)  
+- Supported recruitment, onboarding, and training logistics.  
+- Front-line support to employees and partners.  
+- Standardized communications and document control.
+
+### Culinary & Hospitality — Vancouver, Canada
+**Cook, Guilt and Co** (Oct 2025 – Present) — ingredient quality, station, prep & execution.  
+**Line Cook, Six Acres** (Mar 2025 – May 2025) — quality control, cleanliness, timely execution.  
+**Plater, Fed** (Mar 2025 – Sep 2025) — accurate plating, portions, presentation.
+
+## Download Resume
+[Download PDF](MichelleRicart_Resume.pdf){.btn .btn-primary target="_blank" rel="noopener" download}

@@ -1,0 +1,14 @@
+---
+title: "Reflection"
+body-classes: reflection
+---
+
+**LLM Use — Reflection (approx. 350 words)**
+
+Expanding my portfolio into a multi-page site clarified the information architecture and reduced cognitive load for visitors. The navbar gave me a stable mental model: Home for quick context, Resume for depth, Projects for evidence, Skills & Certifications for proof, and Contact for calls-to-action. As I added pages, I learned to limit each page to a tight purpose and to use recurring visual patterns (cards, badges, headings) so navigation felt consistent.
+
+An LLM helped most with brainstorming and rephrasing. I used the model to generate site-map variations, section outlines, and first-draft copy. This saved time and improved fluency, but I treated the output as a starting point—not as the source of truth. To ensure authenticity and accuracy, I replaced generic phrasing with my real data (titles, dates, responsibilities, tools), verified every claim against my resume and coursework, and removed anything that sounded unearned. I also added concrete context from my experience (where possible, metrics or outcomes). Finally, I included an Appendix that stores the prompts and the unedited LLM drafts to make the AI contribution transparent.
+
+On the design side, I aimed for a professional but approachable aesthetic using pastel gradients and soft cards. I added accessible alt text for images, meaningful link labels, and a clear heading hierarchy. I tested keyboard focus and avoided text over low-contrast backgrounds. The site uses Quarto with Markdown for maintainability; I chose simple CSS (not SCSS) and a small IntersectionObserver script so content remains visible even if JavaScript fails.
+
+Next, I plan to add richer evidence (links to PDFs, brief case write-ups), collect more concrete metrics for key achievements, and expand accessibility checks (e.g., color contrast, aria-labels on buttons). I also want to experiment with a search component for quicker navigation and add a downloadable one-page resume in addition to my full CV PDF. Overall, the multi-page structure feels more professional and scannable. The LLM is most helpful for ideation and polishing; accuracy and voice remain my responsibility.

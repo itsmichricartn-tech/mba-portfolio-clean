@@ -1,0 +1,11 @@
+---
+title: "Contact"
+body-classes: contact
+---
+
+- 📍 Vancouver, BC, Canada  
+- ✉️ <a href="mailto:itsmichricartn@gmail.com" aria-label="Send email to Michelle">itsmichricartn@gmail.com</a>  
+- 🔗 <a href="https://www.linkedin.com/in/michelle-marie-ricart-naranjo-042628199/" target="_blank" rel="noopener" aria-label="Open LinkedIn in new tab">LinkedIn</a>  
+
+<a class="btn btn-primary" href="MichelleRicart_Resume.pdf" target="_blank" rel="noopener" download>Download Resume (PDF)</a>
+<a class="btn btn-outline-secondary" href="mailto:itsmichricartn@gmail.com?subject=Contact%20from%20MBA%20portfolio">Email me</a>

@@ -1,0 +1,96 @@
+/* ===== Paleta pastel MBA ===== */
+:root{
+  --brand-700:#5f6dea; /* lavanda/indigo */
+  --brand-500:#7c8cff; /* indigo pastel */
+  --pink:#f6b8d5;      /* rosa blush */
+  --lav:#d6d9ff;       /* lavanda */
+  --mint:#bde8d9;      /* menta */
+  --peach:#ffd6c9;     /* durazno */
+  --gold:#ffe7a1;      /* dorado suave */
+  --ink:#1f2937;
+  --surface:#ffffff;
+}
+
+/* ===== Fondo global con degradados pastel (por página) ===== */
+body{
+  --c1: rgba(108,124,255,.28); /* default Home */
+  --c2: rgba(246,184,213,.28);
+  background:
+    radial-gradient(1100px 800px at 12% 12%, var(--c1), transparent 60%),
+    radial-gradient(1000px 700px at 88% 68%, var(--c2), transparent 60%),
+    #f7f8ff;
+  background-attachment: fixed;
+  color: var(--ink);
+}
+body.resume   { --c1: rgba(214,217,255,.30); --c2: rgba(189,232,217,.30); } /* lav + mint */
+body.projects { --c1: rgba(255,214,201,.32); --c2: rgba(108,124,255,.22); } /* peach+indigo */
+body.skills   { --c1: rgba(189,232,217,.32); --c2: rgba(255,231,161,.30); } /* mint+gold   */
+body.contact  { --c1: rgba(246,184,213,.32); --c2: rgba(214,217,255,.30); } /* pink+lav    */
+body.reflection{--c1: rgba(255,231,161,.32); --c2: rgba(108,124,255,.22);} /* gold+indigo */
+body.appendix { --c1: rgba(214,217,255,.22); --c2: rgba(214,217,255,.12); } /* sutil       */
+
+/* ===== Navbar ===== */
+.navbar{
+  background: linear-gradient(90deg, var(--brand-700), var(--brand-500)) !important;
+  box-shadow: 0 6px 24px rgba(0,0,0,.08);
+}
+.navbar .nav-link, .navbar .navbar-brand{ color:#fff !important; }
+
+/* ===== Contenedor suave (hero, tarjetas) ===== */
+.soft-hero, .card, .section-card{
+  background: var(--surface);
+  border: 1px solid rgba(214,217,255,.7);
+  border-radius: 22px;
+  box-shadow: 0 14px 40px rgba(31,41,55,.10);
+  padding: 1.3rem 1.5rem;
+  margin: 1rem 0 1.2rem;
+}
+
+/* Hero con tinte según página */
+.soft-hero{
+  background:
+    linear-gradient(135deg, rgba(108,124,255,.10), rgba(246,184,213,.10)),
+    var(--surface);
+}
+body.resume   .soft-hero{ background: linear-gradient(135deg, rgba(214,217,255,.14), rgba(189,232,217,.14)), var(--surface); }
+body.projects .soft-hero{ background: linear-gradient(135deg, rgba(255,214,201,.14), rgba(108,124,255,.10)), var(--surface); }
+body.skills   .soft-hero{ background: linear-gradient(135deg, rgba(189,232,217,.16), rgba(255,231,161,.14)), var(--surface); }
+body.contact  .soft-hero{ background: linear-gradient(135deg, rgba(246,184,213,.16), rgba(214,217,255,.14)), var(--surface); }
+body.reflection .soft-hero{ background: linear-gradient(135deg, rgba(255,231,161,.16), rgba(108,124,255,.12)), var(--surface); }
+
+/* Headings con subrayado pastel */
+h2{ position:relative; scroll-margin-top: 90px; }
+h2::after{
+  content:""; position:absolute; left:0; bottom:-10px; height:6px; width:110px; border-radius:999px;
+  background: linear-gradient(90deg, var(--brand-700), var(--pink));
+}
+body.resume   h2::after{ background: linear-gradient(90deg, var(--lav), var(--mint)); }
+body.projects h2::after{ background: linear-gradient(90deg, var(--peach), var(--brand-700)); }
+body.skills   h2::after{ background: linear-gradient(90deg, var(--mint), var(--gold)); }
+body.contact  h2::after{ background: linear-gradient(90deg, var(--pink), var(--lav)); }
+body.reflection h2::after{ background: linear-gradient(90deg, var(--gold), var(--brand-700)); }
+
+/* Foto redonda con aro */
+.headshot{
+  width:148px;height:148px;object-fit:cover;border-radius:9999px;border:6px solid #fff;
+  box-shadow: 0 0 0 10px rgba(214,217,255,.65), 0 16px 40px rgba(31,41,55,.12);
+}
+
+/* Botones */
+.btn{ border-radius:9999px; padding:.62rem 1.05rem; font-weight:600; }
+.btn-primary{ background: var(--brand-700); border-color: var(--brand-700); }
+.btn-primary:hover{ background:#4E5FE6; border-color:#4E5FE6; }
+.btn-outline-secondary{ color: var(--brand-700); border-color: var(--brand-700); }
+.btn-outline-secondary:hover{ color:#fff; background: var(--brand-700); }
+
+/* Badges (skills) */
+.badge{
+  display:inline-block; padding:.45rem .7rem; margin:.25rem .35rem .1rem 0;
+  border-radius:9999px; font-weight:600; font-size:.92rem;
+  background: #eef2ff; color:#334155; border:1px solid #dfe3ff;
+}
+
+/* Animación: contenido visible siempre, animación sólo si hay JS */
+.reveal { opacity:1; transform:none; }
+.js .reveal { opacity:0; transform: translateY(10px); transition: opacity .45s, transform .45s; }
+.js .reveal.reveal-in { opacity:1; transform:none; }
