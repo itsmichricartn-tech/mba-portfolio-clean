@@ -112,3 +112,62 @@ body.reflection h2::after{ background: linear-gradient(90deg, var(--gold), var(-
   background:#eef2ff;          /* pasteles */
   border:1px solid #e6e8ff;
 }
+/* ====== Hero banner (Home) ====== */
+:root{
+  /* Colores del degradé (ajusta a tu gusto) */
+  --hero-start: #8da2ff;   /* azul-lila */
+  --hero-end:   #ffd1e0;   /* rosado pastel */
+  --hero-glow:  rgba(255,255,255,.35);
+}
+
+.hero-wrap{ 
+  margin-top: 1rem;
+  margin-bottom: 6rem; /* espacio para la foto que "cuelga" */
+}
+
+.hero-banner{
+  position: relative;
+  height: 240px;           /* alto del banner */
+  border-radius: 22px;
+  background:
+    /* brillo suave */
+    radial-gradient(1200px 500px at 10% -30%, var(--hero-glow), transparent 70%),
+    /* patrón sutil con líneas diagonales */
+    repeating-linear-gradient(
+      135deg,
+      rgba(255,255,255,0.18) 0px,
+      rgba(255,255,255,0.18) 2px,
+      rgba(255,255,255,0.08) 2px,
+      rgba(255,255,255,0.08) 12px
+    ),
+    /* degradado principal */
+    linear-gradient(135deg, var(--hero-start), var(--hero-end));
+  box-shadow:
+    0 10px 30px rgba(110,119,255,.15),
+    inset 0 0 0 1px rgba(255,255,255,.35);
+  overflow: hidden;
+}
+
+/* Foto redonda sobrepuesta */
+.hero-avatar{
+  position: absolute;
+  left: 50%;
+  bottom: -72px;                 /* “cuelga” hacia abajo */
+  transform: translateX(-50%);
+  width: 144px;
+  height: 144px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 6px solid #fff;        /* aro blanco */
+  box-shadow:
+    0 10px 25px rgba(0,0,0,.12),
+    0 0 0 6px rgba(142,153,255,.18); /* aro externo suave */
+}
+
+/* Responsivo */
+@media (max-width: 600px){
+  .hero-banner{ height: 200px; }
+  .hero-avatar{
+    width: 120px; height: 120px; bottom: -60px;
+  }
+}

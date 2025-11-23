@@ -1,3 +1,11 @@
+<div class="hero-wrap">
+  <div class="hero-banner">
+    <img src="headshot.jpg"
+         alt="Professional headshot of Michelle Marie Ricart"
+         class="hero-avatar">
+  </div>
+</div>
+
 ---
 title: "Home"
 body-classes: home
