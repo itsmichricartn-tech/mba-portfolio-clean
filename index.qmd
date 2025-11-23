@@ -1,17 +1,31 @@
 ---
 title: "Home"
-toc: false
 ---
 
-![](headshot.jpg){.headshot width=120 height=120}
+<section class="soft-hero">
+  <div style="display:flex; gap:1rem; align-items:center; margin-bottom:1rem;">
+    <img src="headshot.jpg" alt="Professional headshot of Michelle Marie Ricart" style="width:120px;height:120px;border-radius:50%;object-fit:cover;box-shadow:0 8px 30px rgba(0,0,0,.08);">
+    <div>
+      <h1 style="margin:0;">Michelle Marie Ricart Naranjo</h1>
+      <p style="margin:.25rem 0 0 0;"><em>MBA Candidate · University Canada West (UCW) · Vancouver, BC</em></p>
+    </div>
+  </div>
 
-# Michelle Marie Ricart Naranjo
-*MBA Candidate · University Canada West (UCW) · Vancouver, BC*
+  <p>
+    People-centric HR professional with experience in <strong>Compensation & Benefits</strong>, employee services, and onboarding.
+    I turn complex information into clear, actionable decisions and I’m currently expanding my <strong>culinary</strong> skills in Vancouver.
+  </p>
 
-People-centric HR professional with experience in **Compensation & Benefits**, employee services, and onboarding. I focus on clear processes and reliable service to support better business decisions.
+  <div style="display:flex; gap:.75rem; flex-wrap:wrap; margin-top:.75rem;">
+    <a class="btn btn-primary" href="resume.html" role="button">View Resume</a>
+    <a class="btn btn-outline-secondary" href="projects.html" role="button">View Projects</a>
+    <a class="btn btn-outline-secondary" href="MichelleRicart_Resume.pdf" role="button" target="_blank" rel="noopener">Download PDF</a>
+  </div>
+</section>
 
-::: {.cta}
-[View Resume](resume.html){.btn .btn-primary}
-[Projects](projects.html){.btn .btn-outline-secondary}
-[Appendix](appendix.html){.btn .btn-outline-secondary}
-:::
+## Highlights
+- 3+ years in HR at Shell (Dominican Republic): employee service, documentation, and monthly metrics.  
+- Experience in fast-paced culinary operations focused on organization, teamwork, and quality.
+
+## Focus right now
+- HR in Canada · Employee Experience · HR Analytics · Clear documentation & dashboards

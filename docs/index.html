@@ -30,7 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./headshot.jpg" rel="icon" type="image/jpeg">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -82,8 +81,6 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./headshot.jpg" alt="" class="navbar-logo light-content">
-    <img src="./headshot.jpg" alt="" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Michelle Marie Ricart — MBA Portfolio</span>
@@ -149,25 +146,41 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><img src="headshot.jpg" class="headshot" width="120" height="120"></p>
-<section id="michelle-marie-ricart-naranjo" class="level1">
-<h1>Michelle Marie Ricart Naranjo</h1>
-<p><em>MBA Candidate · University Canada West (UCW) · Vancouver, BC</em></p>
-<p>People-centric HR professional with experience in <strong>Compensation &amp; Benefits</strong>, employee services, and onboarding. I focus on clear processes and reliable service to support better business decisions.</p>
-<div class="cta">
-<p><a href="resume.html" class="btn btn-primary">View Resume</a> <a href="projects.html" class="btn btn-outline-secondary">Projects</a> <a href="appendix.html" class="btn btn-outline-secondary">Appendix</a></p>
+<section class="soft-hero">
+<div style="display:flex; gap:1rem; align-items:center; margin-bottom:1rem;">
+<pre><code>&lt;img src="headshot.jpg" alt="Professional headshot of Michelle Marie Ricart" style="width:120px;height:120px;border-radius:50%;object-fit:cover;box-shadow:0 8px 30px rgba(0,0,0,.08);"&gt;
+&lt;div&gt;
+  &lt;h1 style="margin:0;"&gt;Michelle Marie Ricart Naranjo&lt;/h1&gt;
+  &lt;p style="margin:.25rem 0 0 0;"&gt;&lt;em&gt;MBA Candidate · University Canada West (UCW) · Vancouver, BC&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;</code></pre>
 </div>
+<p>
+People-centric HR professional with experience in <strong>Compensation &amp; Benefits</strong>, employee services, and onboarding. I turn complex information into clear, actionable decisions and I’m currently expanding my <strong>culinary</strong> skills in Vancouver.
+</p>
+<div style="display:flex; gap:.75rem; flex-wrap:wrap; margin-top:.75rem;">
+<pre><code>&lt;a class="btn btn-primary" href="resume.html" role="button"&gt;View Resume&lt;/a&gt;
+&lt;a class="btn btn-outline-secondary" href="projects.html" role="button"&gt;View Projects&lt;/a&gt;
+&lt;a class="btn btn-outline-secondary" href="MichelleRicart_Resume.pdf" role="button" target="_blank" rel="noopener"&gt;Download PDF&lt;/a&gt;</code></pre>
+</div>
+</section>
+<section id="highlights" class="level2">
+<h2 class="anchored" data-anchor-id="highlights">Highlights</h2>
+<ul>
+<li>3+ years in HR at Shell (Dominican Republic): employee service, documentation, and monthly metrics.<br>
+</li>
+<li>Experience in fast-paced culinary operations focused on organization, teamwork, and quality.</li>
+</ul>
+</section>
+<section id="focus-right-now" class="level2">
+<h2 class="anchored" data-anchor-id="focus-right-now">Focus right now</h2>
+<ul>
+<li>HR in Canada · Employee Experience · HR Analytics · Clear documentation &amp; dashboards</li>
+</ul>
 
 
 </section>
 
 </main> <!-- /main -->
-<!-- Activa animaciones y carga tu script -->
-
-<script>document.documentElement.classList.add('js');</script>
-
-<script src="../scripts.js"></script>
-
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -241,7 +254,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/itsmichricartn-tech\.github\.io\/mba-portfolio-clean\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

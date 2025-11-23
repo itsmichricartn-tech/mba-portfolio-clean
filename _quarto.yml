@@ -1,18 +1,13 @@
 project:
   type: website
   output-dir: docs
-
-resources:
-  - headshot.jpg
-  - MichelleRicart_Resume.pdf
+  resources:
+    - headshot.jpg
+    - MichelleRicart_Resume.pdf
 
 website:
   title: "Michelle Marie Ricart — MBA Portfolio"
-  favicon: headshot.jpg
-  site-url: https://itsmichricartn-tech.github.io/mba-portfolio-clean/
-  search: true
   navbar:
-    logo: headshot.jpg
     left:
       - href: index.qmd
         text: Home
@@ -29,4 +24,4 @@ format:
   html:
     theme: litera
     css: styles.css
-    include-after-body: includes/scripts.html
+

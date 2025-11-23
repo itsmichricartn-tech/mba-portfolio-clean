@@ -26,4 +26,4 @@ body-classes: resume
 **Plater, Fed** (Mar 2025 – Sep 2025) — accurate plating, portions, presentation.
 
 ## Download Resume
-[Download PDF](MichelleRicart_Resume.pdf){.btn .btn-primary target="_blank" rel="noopener" download}
+[Download PDF](MichelleRicart_Resume.pdf)

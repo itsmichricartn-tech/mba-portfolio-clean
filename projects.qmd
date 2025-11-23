@@ -1,27 +1,31 @@
 ---
 title: "Projects / Case Studies"
-body-classes: projects
 ---
 
 Below are selected projects with overview, role, and outcomes.
 
-<div class="card reveal">
-  <h3>TriMetrix → Career Pathways</h3>
-  <p><strong>Overview:</strong> Used DISC, Driving Forces, and Competencies to align roles and development paths.</p>
-  <p><strong>Role:</strong> Analyst and presenter.</p>
-  <p><strong>Outcome:</strong> Role-fit insights and a learning plan mapped to goals.</p>
+<div class="cards" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem;margin-top:1rem;">
+
+  <article class="card" style="background:#fff;border-radius:14px;padding:1rem;box-shadow:0 10px 30px rgba(0,0,0,.06);">
+    <h3 style="margin-top:0;">TriMetrix → Career Pathways</h3>
+    <p><strong>Overview:</strong> Used DISC, Driving Forces, and Competencies to align roles and development paths.</p>
+    <p><strong>Role:</strong> Analyst & presenter.</p>
+    <p><strong>Outcome:</strong> Clear role-fit insights and a learning plan mapped to goals.</p>
+  </article>
+
+  <article class="card" style="background:#fff;border-radius:14px;padding:1rem;box-shadow:0 10px 30px rgba(0,0,0,.06);">
+    <h3 style="margin-top:0;">Odyssey Life Design (ILDP)</h3>
+    <p><strong>Overview:</strong> Multi-year plan with SMART metrics and 70-20-10 activities.</p>
+    <p><strong>Role:</strong> Author—alternative paths, risks, milestones.</p>
+    <p><strong>Outcome:</strong> An actionable roadmap and reflection framework.</p>
+  </article>
+
+  <article class="card" style="background:#fff;border-radius:14px;padding:1rem;box-shadow:0 10px 30px rgba(0,0,0,.06);">
+    <h3 style="margin-top:0;">Marketing & Analytics Coursework</h3>
+    <p><strong>Overview:</strong> Quarto reports, strategy memos, and simple dashboards for case studies.</p>
+    <p><strong>Role:</strong> Analyst & writer.</p>
+    <p><strong>Outcome:</strong> Clear, reproducible deliverables in Markdown.</p>
+  </article>
+
 </div>
 
-<div class="card reveal">
-  <h3>Odyssey Life Design (ILDP)</h3>
-  <p><strong>Overview:</strong> Multi-year plan with SMART metrics and 70-20-10 activities.</p>
-  <p><strong>Role:</strong> Author — alternatives, risks, milestones.</p>
-  <p><strong>Outcome:</strong> Actionable roadmap and reflection framework.</p>
-</div>
-
-<div class="card reveal">
-  <h3>Marketing & Analytics Coursework</h3>
-  <p><strong>Overview:</strong> Quarto reports, memos, simple dashboards for class cases.</p>
-  <p><strong>Role:</strong> Analyst and writer.</p>
-  <p><strong>Outcome:</strong> Clear communication; reproducible Markdown reports.</p>
-</div>

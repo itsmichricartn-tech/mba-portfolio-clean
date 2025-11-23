@@ -74,14 +74,28 @@
     "href": "index.html",
     "title": "Home",
     "section": "",
-    "text": "Michelle Marie Ricart Naranjo\nMBA Candidate · University Canada West (UCW) · Vancouver, BC\nPeople-centric HR professional with experience in Compensation & Benefits, employee services, and onboarding. I focus on clear processes and reliable service to support better business decisions.\n\nView Resume Projects Appendix"
+    "text": "&lt;img src=\"headshot.jpg\" alt=\"Professional headshot of Michelle Marie Ricart\" style=\"width:120px;height:120px;border-radius:50%;object-fit:cover;box-shadow:0 8px 30px rgba(0,0,0,.08);\"&gt;\n&lt;div&gt;\n  &lt;h1 style=\"margin:0;\"&gt;Michelle Marie Ricart Naranjo&lt;/h1&gt;\n  &lt;p style=\"margin:.25rem 0 0 0;\"&gt;&lt;em&gt;MBA Candidate · University Canada West (UCW) · Vancouver, BC&lt;/em&gt;&lt;/p&gt;\n&lt;/div&gt;\n\n\nPeople-centric HR professional with experience in Compensation & Benefits, employee services, and onboarding. I turn complex information into clear, actionable decisions and I’m currently expanding my culinary skills in Vancouver.\n\n\n&lt;a class=\"btn btn-primary\" href=\"resume.html\" role=\"button\"&gt;View Resume&lt;/a&gt;\n&lt;a class=\"btn btn-outline-secondary\" href=\"projects.html\" role=\"button\"&gt;View Projects&lt;/a&gt;\n&lt;a class=\"btn btn-outline-secondary\" href=\"MichelleRicart_Resume.pdf\" role=\"button\" target=\"_blank\" rel=\"noopener\"&gt;Download PDF&lt;/a&gt;"
+  },
+  {
+    "objectID": "index.html#highlights",
+    "href": "index.html#highlights",
+    "title": "Home",
+    "section": "Highlights",
+    "text": "Highlights\n\n3+ years in HR at Shell (Dominican Republic): employee service, documentation, and monthly metrics.\n\nExperience in fast-paced culinary operations focused on organization, teamwork, and quality."
+  },
+  {
+    "objectID": "index.html#focus-right-now",
+    "href": "index.html#focus-right-now",
+    "title": "Home",
+    "section": "Focus right now",
+    "text": "Focus right now\n\nHR in Canada · Employee Experience · HR Analytics · Clear documentation & dashboards"
   },
   {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Projects / Case Studies",
     "section": "",
-    "text": "Below are selected projects with overview, role, and outcomes.\n\n\nTriMetrix → Career Pathways\n\n\nOverview: Used DISC, Driving Forces, and Competencies to align roles and development paths.\n\n\nRole: Analyst and presenter.\n\n\nOutcome: Role-fit insights and a learning plan mapped to goals.\n\n\n\n\nOdyssey Life Design (ILDP)\n\n\nOverview: Multi-year plan with SMART metrics and 70-20-10 activities.\n\n\nRole: Author — alternatives, risks, milestones.\n\n\nOutcome: Actionable roadmap and reflection framework.\n\n\n\n\nMarketing & Analytics Coursework\n\n\nOverview: Quarto reports, memos, simple dashboards for class cases.\n\n\nRole: Analyst and writer.\n\n\nOutcome: Clear communication; reproducible Markdown reports."
+    "text": "Below are selected projects with overview, role, and outcomes.\n\n\n\nTriMetrix → Career Pathways\n\n\nOverview: Used DISC, Driving Forces, and Competencies to align roles and development paths.\n\n\nRole: Analyst & presenter.\n\n\nOutcome: Clear role-fit insights and a learning plan mapped to goals.\n\n\n\n\nOdyssey Life Design (ILDP)\n\n\nOverview: Multi-year plan with SMART metrics and 70-20-10 activities.\n\n\nRole: Author—alternative paths, risks, milestones.\n\n\nOutcome: An actionable roadmap and reflection framework.\n\n\n\n\nMarketing & Analytics Coursework\n\n\nOverview: Quarto reports, strategy memos, and simple dashboards for case studies.\n\n\nRole: Analyst & writer.\n\n\nOutcome: Clear, reproducible deliverables in Markdown."
   },
   {
     "objectID": "resume.html",
@@ -109,6 +123,6 @@
     "href": "resume.html#download-resume",
     "title": "Resume",
     "section": "Download Resume",
-    "text": "Download Resume\nDownload PDF{.btn .btn-primary target=“_blank” rel=“noopener” download}"
+    "text": "Download Resume\nDownload PDF"
   }
 ]
