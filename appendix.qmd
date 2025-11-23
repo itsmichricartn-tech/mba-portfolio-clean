@@ -13,13 +13,14 @@ format:
 **Context:** Drafted with ChatGPT (GPT-5 Thinking) on 2025-11-22. Purpose: plan a multi-page MBA portfolio for Assignment 3.
 
 **LLM Brainstorm (verbatim):**
-1) Home/About — short positioning and CTAs.  
-2) Resume — education, roles, selected skills.  
-3) Projects/Case Studies — 3–5 cards with overview/role/outcome.  
-4) Skills & Certifications — badges + small list of tools.  
-5) Contact — location, email, LinkedIn, resume download.  
-6) Optional: Reflection on learning and authentic use of LLMs.  
-7) Optional: Appendix with prompts and outputs for transparency.
+
+1) -**Home/About** — short positioning and CTAs.  
+2) -**Resume** — education, roles, selected skills.  
+3) -**Projects/Case Studies** — 3–5 cards with overview/role/outcome.  
+4) -**Skills & Certifications** — badges + small list of tools.  
+5) -**Contact** — location, email, LinkedIn, resume download.  
+6) -**Optional:** Reflection on learning and authentic use of LLMs.  
+7) -**Optional:** Appendix with prompts and outputs for transparency.
 
 **Final site structure (published):**
 - [Home](index.qmd)  
@@ -113,7 +114,6 @@ People-centric HR professional with experience in **Compensation & Benefits**, e
 
 ### C5. Skills/Badges line (used)
 
-```
 <div class="badges">
   <span class="badge">Compensation & Benefits</span>
   <span class="badge">Employee Services</span>
