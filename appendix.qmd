@@ -129,7 +129,6 @@ Return plain HTML with three div class="card" blocks that drop into a Quarto pag
 
 I have a degree in people-oriented industrial psychology, with experience in <strong>Human Resources</strong>, mainly in the <strong>Compensation and Benefits</strong> department, recruitment, and onboarding processes. I am currently developing my culinary skills in Vancouver, British Columbia.  I define myself by always <strong>prioritizing</strong> customer service, prioritizing clarity and reliability in processes, thereby positively transforming the decisions that can be made to have a positive impact on the future of companies and their operations. 
 
-**CTAs:** View Resume · See Projects · Download PDF.
 
 ### C3. Resume Bullet Tightening (example applied)
 **Compensation & Benefits Analyst — Shell Licensee (Dec 2021–Sep 2024)**

@@ -8,10 +8,15 @@ toc: true
 
 
 •	What worked better as I added pages?
+
 The creation of the portfolio on a website consisting of several pages, which is important to mention that the content belongs to each section and reduced the cognitive load for the reader. The navigation bar included several important pieces of information, which throughout the development of this gave us a solid “mind map.” For me, it provided a starting point for a quick overview of the person, a resume for the main details and personal interests, projects to highlight their professional career, skills/certifications for the validation of competencies, and Contact for direct contact if necessary. The LLM used was very important because it allowed us to brainstorm, generate drafts, and write with a consistent tone. The acceleration of iteration was what we took the most advantage of because it allowed me to make comparisons, choose the most suitable for the job, and make it clear and reader-friendly, as well as stylize different pages without any inconvenience so that the reading of these is constant without losing the meaning of one and the next.
+
 •	Ensuring authenticity and accuracy?
+
 The LLM's response, as a basis, generated a document that I appropriated to produce a text that was not original but adapted with the information provided in the resume, which included specific functions, specific dates, tasks that I had actually performed, and tools that I had actually used and that had been useful throughout my professional career. I took on the task of comparing each of the statements generated with the information I had incorporated into the different documents, with a level of detail, nuances, contexts, metrics, and results, to the extent that the contexts allowed me to do so. I checked the consistency and relationship in the timing and technical terminology. Visibly, in an Appendix, I included the prompts and LLM versions that were edited, and the parts that were modified remained in a different format. I also addressed usability aspects such as alternative text for images, hierarchical titles, descriptions for links, and good contrast to make reading enjoyable.
+
 •	What I’d improve next?
+
 In the evidence I will present below, I intend to enrich this evidence by incorporating brief case PDFs, tool certificates, as well as metrics that can be compared, such as response times, service volumes, accuracy improvements, among others. Additionally, I will continue to improve ARIA (Accessible Rich Internet Application) accessibility, keyboard navigation testing, and color reviews to comply with best practices. I will propose some subtle changes to the image theme so that it remains a simple and professional palette, and I will also include a simple search function on the site so that readers can quickly find what they need. Overall, this multi-page format increased professionalism and clarity; the LLM helped me with ideation and polishing, but accuracy and voice are no longer my sole responsibility.
 
 
