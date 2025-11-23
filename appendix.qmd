@@ -51,7 +51,6 @@ One 10–15 word description per page.
 Style: concise, practical, business-ready; avoid hype. Output in Markdown only.
 
 ### B2. Home/About Tone Prompt
-```text
 You are a friendly, UX-savvy writing assistant. Rewrite a short Home/About intro (3–5 sentences).
 Goals: approachable, competent, people-centric HR + current culinary practice in Vancouver.
 Must include: name, MBA Candidate at University Canada West (Vancouver, BC); strengths in Compensation & Benefits, employee services, onboarding; values of clarity, service, and reliable processes; CTAs: “View Resume”, “View Projects”, “Download PDF”.
@@ -75,7 +74,7 @@ Turn each project into a compact card with three fields:
 • Overview (1–2 sentences)
 • Role (my contribution)
 • Outcome (practical result)
-Return plain HTML with three <div class="card"> blocks that drop into a Quarto page.
+Return plain HTML with three div class="card" blocks that drop into a Quarto page.
 
 ### B5. Skills/Badges Prompt
 Return a single Markdown block with inline “badges” for core HR and professional skills.  
@@ -114,7 +113,7 @@ People-centric HR professional with experience in **Compensation & Benefits**, e
 
 ### C5. Skills/Badges line (used)
 
-```html
+```
 <div class="badges">
   <span class="badge">Compensation & Benefits</span>
   <span class="badge">Employee Services</span>
@@ -153,7 +152,6 @@ I used ChatGPT (**GPT-5 Thinking**) to support this assignment in bounded, trans
 - Posit Software, PBC. (2025). *Quarto documentation: Websites.* https://quarto.org/docs/websites/
 - American Psychological Association. (2020). *Publication manual of the American Psychological Association* (7th ed.).
 
-*In-text examples:* (OpenAI, 2025), (Posit Software, 2025).
 
 
 ## E) Change Log & Rationale

@@ -145,7 +145,22 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#b2.-homeabout-tone-prompt" id="toc-b2.-homeabout-tone-prompt" class="nav-link" data-scroll-target="#b2.-homeabout-tone-prompt">B2. Home/About Tone Prompt</a></li>
   <li><a href="#b3.-resume-tightening-prompt" id="toc-b3.-resume-tightening-prompt" class="nav-link" data-scroll-target="#b3.-resume-tightening-prompt">B3. Resume Tightening Prompt</a></li>
   <li><a href="#b4.-projects-formatting-prompt" id="toc-b4.-projects-formatting-prompt" class="nav-link" data-scroll-target="#b4.-projects-formatting-prompt">B4. Projects Formatting Prompt</a></li>
+  <li><a href="#b5.-skillsbadges-prompt" id="toc-b5.-skillsbadges-prompt" class="nav-link" data-scroll-target="#b5.-skillsbadges-prompt">B5. Skills/Badges Prompt</a></li>
+  <li><a href="#b6.-reflection-prompt" id="toc-b6.-reflection-prompt" class="nav-link" data-scroll-target="#b6.-reflection-prompt">B6. Reflection Prompt</a></li>
   </ul></li>
+  <li><a href="#c-selected-llm-output-snippets" id="toc-c-selected-llm-output-snippets" class="nav-link" data-scroll-target="#c-selected-llm-output-snippets">C) Selected LLM Output (Snippets)</a>
+  <ul class="collapse">
+  <li><a href="#c1.-global-structure-excerpt" id="toc-c1.-global-structure-excerpt" class="nav-link" data-scroll-target="#c1.-global-structure-excerpt">C1. Global Structure (excerpt)</a></li>
+  <li><a href="#c2.-homeabout-intro-used-with-light-edits" id="toc-c2.-homeabout-intro-used-with-light-edits" class="nav-link" data-scroll-target="#c2.-homeabout-intro-used-with-light-edits">C2. Home/About Intro (used with light edits)</a></li>
+  <li><a href="#c3.-resume-bullet-tightening-example-applied" id="toc-c3.-resume-bullet-tightening-example-applied" class="nav-link" data-scroll-target="#c3.-resume-bullet-tightening-example-applied">C3. Resume Bullet Tightening (example applied)</a></li>
+  <li><a href="#c5.-skillsbadges-line-used" id="toc-c5.-skillsbadges-line-used" class="nav-link" data-scroll-target="#c5.-skillsbadges-line-used">C5. Skills/Badges line (used)</a></li>
+  </ul></li>
+  <li><a href="#d-ai-use-apa-citations" id="toc-d-ai-use-apa-citations" class="nav-link" data-scroll-target="#d-ai-use-apa-citations">D) AI Use &amp; APA Citations</a>
+  <ul class="collapse">
+  <li><a href="#d1.-generative-ai-use-statement" id="toc-d1.-generative-ai-use-statement" class="nav-link" data-scroll-target="#d1.-generative-ai-use-statement">D1. Generative-AI Use Statement</a></li>
+  <li><a href="#d2.-apa-style-references-samples" id="toc-d2.-apa-style-references-samples" class="nav-link" data-scroll-target="#d2.-apa-style-references-samples">D2. APA-Style References (samples)</a></li>
+  </ul></li>
+  <li><a href="#e-change-log-rationale" id="toc-e-change-log-rationale" class="nav-link" data-scroll-target="#e-change-log-rationale">E) Change Log &amp; Rationale</a></li>
   </ul>
 </nav>
     </div>
@@ -204,7 +219,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="b2.-homeabout-tone-prompt" class="level3">
 <h3 class="anchored" data-anchor-id="b2.-homeabout-tone-prompt">B2. Home/About Tone Prompt</h3>
-<p>```text You are a friendly, UX-savvy writing assistant. Rewrite a short Home/About intro (3–5 sentences). Goals: approachable, competent, people-centric HR + current culinary practice in Vancouver. Must include: name, MBA Candidate at University Canada West (Vancouver, BC); strengths in Compensation &amp; Benefits, employee services, onboarding; values of clarity, service, and reliable processes; CTAs: “View Resume”, “View Projects”, “Download PDF”. Output: ≤2 short paragraphs, no emojis, no hype.</p>
+<p>You are a friendly, UX-savvy writing assistant. Rewrite a short Home/About intro (3–5 sentences). Goals: approachable, competent, people-centric HR + current culinary practice in Vancouver. Must include: name, MBA Candidate at University Canada West (Vancouver, BC); strengths in Compensation &amp; Benefits, employee services, onboarding; values of clarity, service, and reliable processes; CTAs: “View Resume”, “View Projects”, “Download PDF”. Output: ≤2 short paragraphs, no emojis, no hype.</p>
 </section>
 <section id="b3.-resume-tightening-prompt" class="level3">
 <h3 class="anchored" data-anchor-id="b3.-resume-tightening-prompt">B3. Resume Tightening Prompt</h3>
@@ -212,10 +227,9 @@ ul.task-list li input[type="checkbox"] {
 <p>Rules: 2–3 bullets per role; action-first verbs; clear outcome/impact where possible; ≤140 characters per bullet; no fluff. Output only Markdown lists under each role title.</p>
 </section>
 <section id="b4.-projects-formatting-prompt" class="level3">
-<h3 class="anchored">B4. Projects Formatting Prompt</h3>
-Turn each project into a compact card with three fields: • Overview (1–2 sentences) • Role (my contribution) • Outcome (practical result) Return plain HTML with three
-<div class="card">
-<p>blocks that drop into a Quarto page.</p>
+<h3 class="anchored" data-anchor-id="b4.-projects-formatting-prompt">B4. Projects Formatting Prompt</h3>
+<p>Turn each project into a compact card with three fields: • Overview (1–2 sentences) • Role (my contribution) • Outcome (practical result) Return plain HTML with three div class=“card” blocks that drop into a Quarto page.</p>
+</section>
 <section id="b5.-skillsbadges-prompt" class="level3">
 <h3 class="anchored" data-anchor-id="b5.-skillsbadges-prompt">B5. Skills/Badges Prompt</h3>
 <p>Return a single Markdown block with inline “badges” for core HR and professional skills.<br>
@@ -229,6 +243,7 @@ Do not add explanations—badges only.</p>
 Cover: (1) what improved when adding pages, (2) how you verified authenticity/accuracy, (3) limits/risks of LLMs and how you mitigated them (citations, manual review, dated notes, style control), (4) what you’d iterate next (accessibility, performance, content depth).<br>
 Tone: honest, specific, first person. Output in Markdown (no title).</p>
 <hr>
+</section>
 </section>
 <section id="c-selected-llm-output-snippets" class="level2">
 <h2 class="anchored" data-anchor-id="c-selected-llm-output-snippets">C) Selected LLM Output (Snippets)</h2>
@@ -257,7 +272,7 @@ Tone: honest, specific, first person. Output in Markdown (no title).</p>
 </section>
 <section id="c5.-skillsbadges-line-used" class="level3">
 <h3 class="anchored" data-anchor-id="c5.-skillsbadges-line-used">C5. Skills/Badges line (used)</h3>
-```html
+```
 <div class="badges">
 <p><span class="badge">Compensation &amp; Benefits</span> <span class="badge">Employee Services</span> <span class="badge">Onboarding</span> <span class="badge">Internal Communications</span> <span class="badge">Excel (dashboards)</span> <span class="badge">Time Management</span> <span class="badge">Problem-Solving</span> <span class="badge">Teamwork</span> <span class="badge">Customer Service</span> <span class="badge">Spanish &amp; English</span></p>
 </div>
@@ -286,7 +301,6 @@ Tone: honest, specific, first person. Output in Markdown (no title).</p>
 <li>Posit Software, PBC. (2025). <em>Quarto documentation: Websites.</em> https://quarto.org/docs/websites/</li>
 <li>American Psychological Association. (2020). <em>Publication manual of the American Psychological Association</em> (7th ed.).</li>
 </ul>
-<p><em>In-text examples:</em> (OpenAI, 2025), (Posit Software, 2025).</p>
 </section>
 </section>
 <section id="e-change-log-rationale" class="level2">
@@ -301,9 +315,6 @@ Tone: honest, specific, first person. Output in Markdown (no title).</p>
 <hr>
 
 
-</section>
-</div>
-</section>
 </section>
 
 </main> <!-- /main -->
