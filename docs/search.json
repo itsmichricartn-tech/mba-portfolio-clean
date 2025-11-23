@@ -74,28 +74,21 @@
     "href": "index.html",
     "title": "Home",
     "section": "",
-    "text": "&lt;img src=\"headshot.jpg\" alt=\"Professional headshot of Michelle Marie Ricart\" class=\"headshot\"&gt;\n&lt;div&gt;\n  # Michelle Marie Ricart Naranjo\n  *MBA Candidate · University Canada West (UCW) · Vancouver, BC*\n&lt;/div&gt;\n\nI have a degree in people-oriented industrial psychology, with experience in Human Resources, mainly in the Compensation & Benefits department, recruitment, and onboarding processes. I am currently developing my culinary skills in Vancouver, BC. I value clear documentation and reliable processes that help transform decisions into positive business impact.\n\n\n\n3+ years in HR at Shell licensee (employee service, documentation, monthly metrics).\nCulinary practice in high-speed environments with quality standards.\n\n\n\n\n\nSpanish (Native)\nEnglish (Second Language)\n\n\n\n\n\nPeople leadership in multicultural contexts.\nDocumentation and quality dashboards for decision-making.\nBuilding a professional brand with Quarto."
+    "text": "&lt;img src=\"headshot.jpg\" alt=\"Professional headshot of Michelle Marie Ricart\" class=\"headshot\" width=\"128\" height=\"128\"/&gt;\n&lt;div&gt;\n  &lt;h1&gt;Michelle Marie Ricart Naranjo&lt;/h1&gt;\n  &lt;p&gt;&lt;em&gt;MBA Candidate · University Canada West (UCW) · Vancouver, BC&lt;/em&gt;&lt;/p&gt;\n&lt;/div&gt;\n\n\nPeople-centric HR professional with experience in Compensation & Benefits, employee services, and onboarding. Currently developing culinary skills in Vancouver. I focus on clear processes and reliable service to support better business decisions.\n\n\n&lt;a class=\"btn btn-primary\" href=\"resume.html\"&gt;View Resume&lt;/a&gt;\n&lt;a class=\"btn btn-outline-secondary\" href=\"projects.html\"&gt;Projects&lt;/a&gt;\n&lt;a class=\"btn btn-outline-secondary\" href=\"appendix.html\"&gt;Appendix&lt;/a&gt;"
   },
   {
     "objectID": "index.html#highlights",
     "href": "index.html#highlights",
     "title": "Home",
-    "section": "",
-    "text": "3+ years in HR at Shell licensee (employee service, documentation, monthly metrics).\nCulinary practice in high-speed environments with quality standards."
+    "section": "Highlights",
+    "text": "Highlights\n\n3+ years in HR (Shell DR): employee support, documentation, and monthly metrics.\nFoodSafe Level 1 (2025) and hands-on practice in high-pace kitchens.\nClear communication, teamwork, and quality mindset."
   },
   {
-    "objectID": "index.html#bilingual",
-    "href": "index.html#bilingual",
+    "objectID": "index.html#current-focus",
+    "href": "index.html#current-focus",
     "title": "Home",
-    "section": "",
-    "text": "Spanish (Native)\nEnglish (Second Language)"
-  },
-  {
-    "objectID": "index.html#recent-focus",
-    "href": "index.html#recent-focus",
-    "title": "Home",
-    "section": "",
-    "text": "People leadership in multicultural contexts.\nDocumentation and quality dashboards for decision-making.\nBuilding a professional brand with Quarto."
+    "section": "Current Focus",
+    "text": "Current Focus\nCompensation & Benefits Employee Experience HR Analytics HR in Canada"
   },
   {
     "objectID": "projects.html",

@@ -1,29 +1,41 @@
 ---
 title: "Home"
-body-classes: home
+page-layout: full
+image: headshot.jpg
 ---
 
-<section class="soft-hero reveal">
-  <div style="display:flex; gap:1rem; align-items:center; flex-wrap:wrap;">
-    <img src="headshot.jpg" alt="Professional headshot of Michelle Marie Ricart" class="headshot">
+<!-- Hero -->
+<div class="soft-hero lush">
+  <div style="display:flex; gap:1rem; align-items:center;">
+    <img src="headshot.jpg" alt="Professional headshot of Michelle Marie Ricart" class="headshot" width="128" height="128"/>
     <div>
-      # Michelle Marie Ricart Naranjo
-      *MBA Candidate · University Canada West (UCW) · Vancouver, BC*
+      <h1>Michelle Marie Ricart Naranjo</h1>
+      <p><em>MBA Candidate · University Canada West (UCW) · Vancouver, BC</em></p>
     </div>
   </div>
 
-I have a degree in people-oriented industrial psychology, with experience in **Human Resources**, mainly in the **Compensation & Benefits** department, recruitment, and onboarding processes. I am currently developing my **culinary skills** in Vancouver, BC. I value clear documentation and reliable processes that help transform decisions into positive business impact.
+  <p>
+    People-centric HR professional with experience in
+    <strong>Compensation &amp; Benefits</strong>, employee services, and onboarding.
+    Currently developing culinary skills in Vancouver. I focus on clear processes
+    and reliable service to support better business decisions.
+  </p>
+
+  <div class="footer-cta" style="margin-top:.5rem;">
+    <a class="btn btn-primary" href="resume.html">View Resume</a>
+    <a class="btn btn-outline-secondary" href="projects.html">Projects</a>
+    <a class="btn btn-outline-secondary" href="appendix.html">Appendix</a>
+  </div>
+</div>
 
 ## Highlights
-- 3+ years in HR at Shell licensee (employee service, documentation, monthly metrics).
-- Culinary practice in high-speed environments with quality standards.
+- 3+ years in HR (Shell DR): employee support, documentation, and monthly metrics.
+- FoodSafe Level 1 (2025) and hands-on practice in high-pace kitchens.
+- Clear communication, teamwork, and quality mindset.
 
-## Bilingual
-- Spanish (Native)
-- English (Second Language)
+## Current Focus
+<span class="badge">Compensation &amp; Benefits</span>
+<span class="badge">Employee Experience</span>
+<span class="badge">HR Analytics</span>
+<span class="badge">HR in Canada</span>
 
-## Recent Focus
-- People leadership in multicultural contexts.
-- Documentation and quality dashboards for decision-making.
-- Building a professional brand with Quarto.
-</section>
