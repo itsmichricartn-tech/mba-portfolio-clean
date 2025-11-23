@@ -14,15 +14,16 @@ format:
 
 **LLM Brainstorm (verbatim):**
 
-1) -**Home/About** — short positioning and CTAs.  
-2) -**Resume** — education, roles, selected skills.  
-3) -**Projects/Case Studies** — 3–5 cards with overview/role/outcome.  
-4) -**Skills & Certifications** — badges + small list of tools.  
-5) -**Contact** — location, email, LinkedIn, resume download.  
-6) -**Optional:** Reflection on learning and authentic use of LLMs.  
-7) -**Optional:** Appendix with prompts and outputs for transparency.
+1) **Home/About** — short positioning and CTAs.  
+2) **Resume** — education, roles, selected skills.  
+3) **Projects/Case Studies** — 3–5 cards with overview/role/outcome.  
+4) **Skills & Certifications** — badges + small list of tools.  
+5) **Contact** — location, email, LinkedIn, resume download.  
+6) **Optional:** Reflection on learning and authentic use of LLMs.  
+7) **Optional:** Appendix with prompts and outputs for transparency.
 
 **Final site structure (published):**
+
 - [Home](index.qmd)  
 - [Resume](resume.qmd)  
 - [Projects / Case Studies](projects.qmd)  
@@ -32,8 +33,11 @@ format:
 - [Appendix](appendix.qmd)
 
 **Notes (Kept / Edited / Removed):**
-- **Kept:** Core five pages (Home, Resume, Projects, Skills, Contact).  
+
+- **Kept:** Core five pages (Home, Resume, Projects, Skills, Contact).
+
 - **Edited:** Added **Reflection** and **Appendix** to meet assignment requirements and improve transparency.  
+
 - **Removed / Deferred:** Leadership / Community / Publications (planned for a future iteration).
 
 ---
@@ -44,12 +48,11 @@ format:
 You are a UX-savvy writing assistant helping me build a clean, professional multi-page MBA portfolio with Quarto.
 Deliverables:
 
-A site map with 6–7 pages: Home, Resume, Projects, Skills & Certifications, Contact, Reflection, Appendix.
+  -A site map with 6–7 pages: Home, Resume, Projects, Skills & Certifications, Contact, Reflection, Appendix.
 
-A Quarto navbar outline (file names like index.qmd, resume.qmd, etc.).
+  -A Quarto navbar outline (file names like index.qmd, resume.qmd, etc.).
 
-One 10–15 word description per page.
-Style: concise, practical, business-ready; avoid hype. Output in Markdown only.
+  -One 10–15 word description per page.Style: concise, practical, business-ready; avoid hype. Output in Markdown only.
 
 ### B2. Home/About Tone Prompt
 You are a friendly, UX-savvy writing assistant. Rewrite a short Home/About intro (3–5 sentences).
@@ -59,34 +62,54 @@ Output: ≤2 short paragraphs, no emojis, no hype.
 
 
 ### B3. Resume Tightening Prompt
+
 Tighten resume bullets for these roles (keep employer/location/dates as given):
+
 - Compensation & Benefits Analyst — Shell Licensee (Santo Domingo, DR) (Dec 2021–Sep 2024)
+
 - General Analyst — Shell Licensee (Dec 2021–Aug 2024)
+
 - Cook — Guilt and Co (Vancouver, Oct 2025–Present)
+
 - Line Cook — Six Acres (Mar–May 2025)
+
 - Plater — Fed (Mar–Sep 2025)
+
 - Stock Service — ZARA (Nov 2019–Nov 2021)
 
 Rules: 2–3 bullets per role; action-first verbs; clear outcome/impact where possible; ≤140 characters per bullet; no fluff.
+
 Output only Markdown lists under each role title.
 
 ### B4. Projects Formatting Prompt
+
 Turn each project into a compact card with three fields:
+
 • Overview (1–2 sentences)
+
 • Role (my contribution)
+
 • Outcome (practical result)
+
 Return plain HTML with three div class="card" blocks that drop into a Quarto page.
 
 ### B5. Skills/Badges Prompt
-Return a single Markdown block with inline “badges” for core HR and professional skills.  
-Format each badge as: `<span class="badge">Skill Name</span>` separated by spaces/newlines.  
-Include: Compensation & Benefits, Employee Services, Onboarding, Internal Communications, Excel (dashboards), Time Management, Problem-Solving, Teamwork, Customer Service, Spanish & English.  
-Do not add explanations—badges only.
+
+-Return a single Markdown block with inline “badges” for core HR and professional skills.  
+
+-Format each badge as: `<span class="badge">Skill Name</span>` separated by spaces/newlines. 
+
+-Include: Compensation & Benefits, Employee Services, Onboarding, Internal Communications, Excel (dashboards), Time Management, Problem-Solving, Teamwork, Customer Service, Spanish & English.
+
+-Do not add explanations—badges only.
 
 ### B6. Reflection Prompt
-Write a 300–500 word reflection about building a multi-page MBA portfolio with Quarto and LLMs.  
-Cover: (1) what improved when adding pages, (2) how you verified authenticity/accuracy, (3) limits/risks of LLMs and how you mitigated them (citations, manual review, dated notes, style control), (4) what you’d iterate next (accessibility, performance, content depth).  
-Tone: honest, specific, first person. Output in Markdown (no title).
+
+-Write a 300–500 word reflection about building a multi-page MBA portfolio with Quarto and LLMs.  
+
+-Cover: (1) what improved when adding pages, (2) how you verified authenticity/accuracy, (3) limits/risks of LLMs and how you mitigated them (citations, manual review, dated notes, style control), (4) what you’d iterate next (accessibility, performance, content depth).  
+
+-Tone: honest, specific, first person. Output in Markdown (no title).
 
 ---
 
@@ -102,13 +125,18 @@ Tone: honest, specific, first person. Output in Markdown (no title).
 > **Appendix:** prompts & outputs, clearly labeled.
 
 ### C2. Home/About Intro (used with light edits)
-People-centric HR professional with experience in **Compensation & Benefits**, employee services, and onboarding. I turn complex information into clear, actionable decisions and I’m currently expanding my culinary skills in Vancouver. My value promise: reliable processes, respectful service, and documentation that helps teams move faster with confidence.  
+
+I have a degree in people-oriented industrial psychology, with experience in <strong>Human Resources</strong>, mainly in the <strong>Compensation and Benefits</strong> department, recruitment, and onboarding processes. I am currently developing my culinary skills in Vancouver, British Columbia.  I define myself by always <strong>prioritizing</strong> customer service, prioritizing clarity and reliability in processes, thereby positively transforming the decisions that can be made to have a positive impact on the future of companies and their operations. 
+
 **CTAs:** View Resume · See Projects · Download PDF.
 
 ### C3. Resume Bullet Tightening (example applied)
 **Compensation & Benefits Analyst — Shell Licensee (Dec 2021–Sep 2024)**
+
 - Resolved employee inquiries on benefits/payroll/policies, improving response consistency and perceived service quality.  
+
 - Coordinated labour-ministry documentation, reducing certification turnaround time and rework.  
+
 - Prepared letters, contracts, and official communications with version control and correct formatting.
 
 
@@ -131,11 +159,15 @@ People-centric HR professional with experience in **Compensation & Benefits**, e
 ## D) AI Use & APA Citations
 
 ### D1. Generative-AI Use Statement
+
 I used ChatGPT (**GPT-5 Thinking**) to support this assignment in bounded, transparent ways:
 
 - **Brainstorming & structure:** initial site map and page outlines; I reviewed, reordered, and finalized navigation.
+
 - **Copy help:** tone tightening and readability edits for *Home*, *Projects*, and *Skills*; I verified accuracy and rewrote where needed.
+
 - **Code snippets:** Quarto/Markdown scaffolds and small CSS utilities (badges, soft-hero gradient). I tested and adjusted locally.
+
 - **Documentation hygiene:** selected prompts and outputs are included in **Appendix B–C**; diffs and rationales are noted inline.
 
 **Limits & authenticity.** All facts (education, work history, skills) reflect my real background. I verified every claim, removed hallucinations, and kept authorship control. The website is built locally with Quarto and published via GitHub Pages. I am accountable for the final content.
@@ -149,40 +181,60 @@ I used ChatGPT (**GPT-5 Thinking**) to support this assignment in bounded, trans
 ### D2. APA-Style References (samples)
 
 - OpenAI. (2025). *ChatGPT (Nov 2025 version) [Large language model].* https://chat.openai.com/
-- Posit Software, PBC. (2025). *Quarto documentation: Websites.* https://quarto.org/docs/websites/
-- American Psychological Association. (2020). *Publication manual of the American Psychological Association* (7th ed.).
 
+- Posit Software, PBC. (2025). *Quarto documentation: Websites.* https://quarto.org/docs/
+websites/
+
+- American Psychological Association. (2020). *Publication manual of the American Psychological Association* (7th ed.).
 
 
 ## E) Change Log & Rationale
 
 **E1. Major edits across drafts**
+
 - **Home:** Replaced long intro with a concise value statement; added clear CTAs (View Resume, Projects, Download PDF).
+
 - **Resume:** Tightened bullets to action-first outcomes; limited to 2–3 bullets/role; removed filler.
+
 - **Projects:** Standardized 3-card layout (Overview · Role · Outcome) for quick scanning.
+
 - **Skills & Certifications:** Switched to compact “badges” for readability on mobile.
+
 - **Contact:** Simplified to essentials (location, email, LinkedIn, resume link).
+
 - **Theme/UX:** Added soft gradient background, improved spacing, and consistent heading scale.
 
 **E2. Why these changes? (Rationales)**
-- **Clarity & scannability:** Recruiters skim; compact sections and consistent patterns reduce cognitive load.
+
+- **Clarity & scannability:** Recruiters skim; compact sections and consistent patterns reduce 
+cognitive load.
+
 - **Outcome focus:** Bullets emphasize impact, not tasks—clearer value for HR roles.
+
 - **Accessibility:** Larger line-height, badge contrast, and predictable navigation improve readability.
+
 - **Authenticity:** All facts (work history, skills) were verified and kept in my own voice.
 
 **E3. What I did NOT include (and why)**
+
 - **Leadership/Community/Publication pages:** Deferred to future iterations to keep scope manageable and maintain quality.
+
 - **Long-form narrative:** Avoided long paragraphs in Resume/Projects to favor scannable content.
 
 **E4. Risks & mitigations**
+
 - **Risk:** Visual polish might distract from content.  
   **Mitigation:** Kept color accents subtle, prioritized typography and spacing.
+
 - **Risk:** Overfitting to one audience.  
   **Mitigation:** Kept language professional-general; industry specifics live inside project cards.
 
 **E5. Evidence of authorship**
+
 - All data points (dates, roles, responsibilities) map to my CV and personal records.
+
 - Prompts and selected outputs are archived in this Appendix (Sections B–C).
+
 - Local build logs and commit history show progressive edits (see Git history timeline).
 
 ---

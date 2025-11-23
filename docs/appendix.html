@@ -191,30 +191,42 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Context:</strong> Drafted with ChatGPT (GPT-5 Thinking) on 2025-11-22. Purpose: plan a multi-page MBA portfolio for Assignment 3.</p>
 <p><strong>LLM Brainstorm (verbatim):</strong></p>
 <ol type="1">
-<li>-<strong>Home/About</strong> — short positioning and CTAs.<br>
+<li><strong>Home/About</strong> — short positioning and CTAs.<br>
 </li>
-<li>-<strong>Resume</strong> — education, roles, selected skills.<br>
+<li><strong>Resume</strong> — education, roles, selected skills.<br>
 </li>
-<li>-<strong>Projects/Case Studies</strong> — 3–5 cards with overview/role/outcome.<br>
+<li><strong>Projects/Case Studies</strong> — 3–5 cards with overview/role/outcome.<br>
 </li>
-<li>-<strong>Skills &amp; Certifications</strong> — badges + small list of tools.<br>
+<li><strong>Skills &amp; Certifications</strong> — badges + small list of tools.<br>
 </li>
-<li>-<strong>Contact</strong> — location, email, LinkedIn, resume download.<br>
+<li><strong>Contact</strong> — location, email, LinkedIn, resume download.<br>
 </li>
-<li>-<strong>Optional:</strong> Reflection on learning and authentic use of LLMs.<br>
+<li><strong>Optional:</strong> Reflection on learning and authentic use of LLMs.<br>
 </li>
-<li>-<strong>Optional:</strong> Appendix with prompts and outputs for transparency.</li>
+<li><strong>Optional:</strong> Appendix with prompts and outputs for transparency.</li>
 </ol>
-<p><strong>Final site structure (published):</strong> - <a href="./index.html">Home</a><br>
-- <a href="./resume.html">Resume</a><br>
-- <a href="./projects.html">Projects / Case Studies</a><br>
-- <a href="./skills.html">Skills &amp; Certifications</a><br>
-- <a href="./contact.html">Contact</a><br>
-- <a href="./reflection.html">Reflection</a><br>
-- <a href="./appendix.html">Appendix</a></p>
-<p><strong>Notes (Kept / Edited / Removed):</strong> - <strong>Kept:</strong> Core five pages (Home, Resume, Projects, Skills, Contact).<br>
-- <strong>Edited:</strong> Added <strong>Reflection</strong> and <strong>Appendix</strong> to meet assignment requirements and improve transparency.<br>
-- <strong>Removed / Deferred:</strong> Leadership / Community / Publications (planned for a future iteration).</p>
+<p><strong>Final site structure (published):</strong></p>
+<ul>
+<li><a href="./index.html">Home</a><br>
+</li>
+<li><a href="./resume.html">Resume</a><br>
+</li>
+<li><a href="./projects.html">Projects / Case Studies</a><br>
+</li>
+<li><a href="./skills.html">Skills &amp; Certifications</a><br>
+</li>
+<li><a href="./contact.html">Contact</a><br>
+</li>
+<li><a href="./reflection.html">Reflection</a><br>
+</li>
+<li><a href="./appendix.html">Appendix</a></li>
+</ul>
+<p><strong>Notes (Kept / Edited / Removed):</strong></p>
+<ul>
+<li><p><strong>Kept:</strong> Core five pages (Home, Resume, Projects, Skills, Contact).</p></li>
+<li><p><strong>Edited:</strong> Added <strong>Reflection</strong> and <strong>Appendix</strong> to meet assignment requirements and improve transparency.</p></li>
+<li><p><strong>Removed / Deferred:</strong> Leadership / Community / Publications (planned for a future iteration).</p></li>
+</ul>
 <hr>
 </section>
 <section id="b-prompts-i-provided-to-the-llm-selected-verbatim" class="level2">
@@ -222,9 +234,9 @@ ul.task-list li input[type="checkbox"] {
 <section id="b1.-global-structure-prompt" class="level3">
 <h3 class="anchored" data-anchor-id="b1.-global-structure-prompt">B1. Global Structure Prompt</h3>
 <p>You are a UX-savvy writing assistant helping me build a clean, professional multi-page MBA portfolio with Quarto. Deliverables:</p>
-<p>A site map with 6–7 pages: Home, Resume, Projects, Skills &amp; Certifications, Contact, Reflection, Appendix.</p>
-<p>A Quarto navbar outline (file names like index.qmd, resume.qmd, etc.).</p>
-<p>One 10–15 word description per page. Style: concise, practical, business-ready; avoid hype. Output in Markdown only.</p>
+<p>-A site map with 6–7 pages: Home, Resume, Projects, Skills &amp; Certifications, Contact, Reflection, Appendix.</p>
+<p>-A Quarto navbar outline (file names like index.qmd, resume.qmd, etc.).</p>
+<p>-One 10–15 word description per page.Style: concise, practical, business-ready; avoid hype. Output in Markdown only.</p>
 </section>
 <section id="b2.-homeabout-tone-prompt" class="level3">
 <h3 class="anchored" data-anchor-id="b2.-homeabout-tone-prompt">B2. Home/About Tone Prompt</h3>
@@ -232,25 +244,38 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="b3.-resume-tightening-prompt" class="level3">
 <h3 class="anchored" data-anchor-id="b3.-resume-tightening-prompt">B3. Resume Tightening Prompt</h3>
-<p>Tighten resume bullets for these roles (keep employer/location/dates as given): - Compensation &amp; Benefits Analyst — Shell Licensee (Santo Domingo, DR) (Dec 2021–Sep 2024) - General Analyst — Shell Licensee (Dec 2021–Aug 2024) - Cook — Guilt and Co (Vancouver, Oct 2025–Present) - Line Cook — Six Acres (Mar–May 2025) - Plater — Fed (Mar–Sep 2025) - Stock Service — ZARA (Nov 2019–Nov 2021)</p>
-<p>Rules: 2–3 bullets per role; action-first verbs; clear outcome/impact where possible; ≤140 characters per bullet; no fluff. Output only Markdown lists under each role title.</p>
+<p>Tighten resume bullets for these roles (keep employer/location/dates as given):</p>
+<ul>
+<li><p>Compensation &amp; Benefits Analyst — Shell Licensee (Santo Domingo, DR) (Dec 2021–Sep 2024)</p></li>
+<li><p>General Analyst — Shell Licensee (Dec 2021–Aug 2024)</p></li>
+<li><p>Cook — Guilt and Co (Vancouver, Oct 2025–Present)</p></li>
+<li><p>Line Cook — Six Acres (Mar–May 2025)</p></li>
+<li><p>Plater — Fed (Mar–Sep 2025)</p></li>
+<li><p>Stock Service — ZARA (Nov 2019–Nov 2021)</p></li>
+</ul>
+<p>Rules: 2–3 bullets per role; action-first verbs; clear outcome/impact where possible; ≤140 characters per bullet; no fluff.</p>
+<p>Output only Markdown lists under each role title.</p>
 </section>
 <section id="b4.-projects-formatting-prompt" class="level3">
 <h3 class="anchored" data-anchor-id="b4.-projects-formatting-prompt">B4. Projects Formatting Prompt</h3>
-<p>Turn each project into a compact card with three fields: • Overview (1–2 sentences) • Role (my contribution) • Outcome (practical result) Return plain HTML with three div class=“card” blocks that drop into a Quarto page.</p>
+<p>Turn each project into a compact card with three fields:</p>
+<p>• Overview (1–2 sentences)</p>
+<p>• Role (my contribution)</p>
+<p>• Outcome (practical result)</p>
+<p>Return plain HTML with three div class=“card” blocks that drop into a Quarto page.</p>
 </section>
 <section id="b5.-skillsbadges-prompt" class="level3">
 <h3 class="anchored" data-anchor-id="b5.-skillsbadges-prompt">B5. Skills/Badges Prompt</h3>
-<p>Return a single Markdown block with inline “badges” for core HR and professional skills.<br>
-Format each badge as: <code>&lt;span class="badge"&gt;Skill Name&lt;/span&gt;</code> separated by spaces/newlines.<br>
-Include: Compensation &amp; Benefits, Employee Services, Onboarding, Internal Communications, Excel (dashboards), Time Management, Problem-Solving, Teamwork, Customer Service, Spanish &amp; English.<br>
-Do not add explanations—badges only.</p>
+<p>-Return a single Markdown block with inline “badges” for core HR and professional skills.</p>
+<p>-Format each badge as: <code>&lt;span class="badge"&gt;Skill Name&lt;/span&gt;</code> separated by spaces/newlines.</p>
+<p>-Include: Compensation &amp; Benefits, Employee Services, Onboarding, Internal Communications, Excel (dashboards), Time Management, Problem-Solving, Teamwork, Customer Service, Spanish &amp; English.</p>
+<p>-Do not add explanations—badges only.</p>
 </section>
 <section id="b6.-reflection-prompt" class="level3">
 <h3 class="anchored" data-anchor-id="b6.-reflection-prompt">B6. Reflection Prompt</h3>
-<p>Write a 300–500 word reflection about building a multi-page MBA portfolio with Quarto and LLMs.<br>
-Cover: (1) what improved when adding pages, (2) how you verified authenticity/accuracy, (3) limits/risks of LLMs and how you mitigated them (citations, manual review, dated notes, style control), (4) what you’d iterate next (accessibility, performance, content depth).<br>
-Tone: honest, specific, first person. Output in Markdown (no title).</p>
+<p>-Write a 300–500 word reflection about building a multi-page MBA portfolio with Quarto and LLMs.</p>
+<p>-Cover: (1) what improved when adding pages, (2) how you verified authenticity/accuracy, (3) limits/risks of LLMs and how you mitigated them (citations, manual review, dated notes, style control), (4) what you’d iterate next (accessibility, performance, content depth).</p>
+<p>-Tone: honest, specific, first person. Output in Markdown (no title).</p>
 <hr>
 </section>
 </section>
@@ -270,14 +295,17 @@ Tone: honest, specific, first person. Output in Markdown (no title).</p>
 </section>
 <section id="c2.-homeabout-intro-used-with-light-edits" class="level3">
 <h3 class="anchored" data-anchor-id="c2.-homeabout-intro-used-with-light-edits">C2. Home/About Intro (used with light edits)</h3>
-<p>People-centric HR professional with experience in <strong>Compensation &amp; Benefits</strong>, employee services, and onboarding. I turn complex information into clear, actionable decisions and I’m currently expanding my culinary skills in Vancouver. My value promise: reliable processes, respectful service, and documentation that helps teams move faster with confidence.<br>
-<strong>CTAs:</strong> View Resume · See Projects · Download PDF.</p>
+<p>I have a degree in people-oriented industrial psychology, with experience in <strong>Human Resources</strong>, mainly in the <strong>Compensation and Benefits</strong> department, recruitment, and onboarding processes. I am currently developing my culinary skills in Vancouver, British Columbia. I define myself by always <strong>prioritizing</strong> customer service, prioritizing clarity and reliability in processes, thereby positively transforming the decisions that can be made to have a positive impact on the future of companies and their operations.</p>
+<p><strong>CTAs:</strong> View Resume · See Projects · Download PDF.</p>
 </section>
 <section id="c3.-resume-bullet-tightening-example-applied" class="level3">
 <h3 class="anchored" data-anchor-id="c3.-resume-bullet-tightening-example-applied">C3. Resume Bullet Tightening (example applied)</h3>
-<p><strong>Compensation &amp; Benefits Analyst — Shell Licensee (Dec 2021–Sep 2024)</strong> - Resolved employee inquiries on benefits/payroll/policies, improving response consistency and perceived service quality.<br>
-- Coordinated labour-ministry documentation, reducing certification turnaround time and rework.<br>
-- Prepared letters, contracts, and official communications with version control and correct formatting.</p>
+<p><strong>Compensation &amp; Benefits Analyst — Shell Licensee (Dec 2021–Sep 2024)</strong></p>
+<ul>
+<li><p>Resolved employee inquiries on benefits/payroll/policies, improving response consistency and perceived service quality.</p></li>
+<li><p>Coordinated labour-ministry documentation, reducing certification turnaround time and rework.</p></li>
+<li><p>Prepared letters, contracts, and official communications with version control and correct formatting.</p></li>
+</ul>
 </section>
 <section id="c5.-skillsbadges-line-used" class="level3">
 <h3 class="anchored" data-anchor-id="c5.-skillsbadges-line-used">C5. Skills/Badges line (used)</h3>
@@ -292,10 +320,10 @@ Tone: honest, specific, first person. Output in Markdown (no title).</p>
 <h3 class="anchored" data-anchor-id="d1.-generative-ai-use-statement">D1. Generative-AI Use Statement</h3>
 <p>I used ChatGPT (<strong>GPT-5 Thinking</strong>) to support this assignment in bounded, transparent ways:</p>
 <ul>
-<li><strong>Brainstorming &amp; structure:</strong> initial site map and page outlines; I reviewed, reordered, and finalized navigation.</li>
-<li><strong>Copy help:</strong> tone tightening and readability edits for <em>Home</em>, <em>Projects</em>, and <em>Skills</em>; I verified accuracy and rewrote where needed.</li>
-<li><strong>Code snippets:</strong> Quarto/Markdown scaffolds and small CSS utilities (badges, soft-hero gradient). I tested and adjusted locally.</li>
-<li><strong>Documentation hygiene:</strong> selected prompts and outputs are included in <strong>Appendix B–C</strong>; diffs and rationales are noted inline.</li>
+<li><p><strong>Brainstorming &amp; structure:</strong> initial site map and page outlines; I reviewed, reordered, and finalized navigation.</p></li>
+<li><p><strong>Copy help:</strong> tone tightening and readability edits for <em>Home</em>, <em>Projects</em>, and <em>Skills</em>; I verified accuracy and rewrote where needed.</p></li>
+<li><p><strong>Code snippets:</strong> Quarto/Markdown scaffolds and small CSS utilities (badges, soft-hero gradient). I tested and adjusted locally.</p></li>
+<li><p><strong>Documentation hygiene:</strong> selected prompts and outputs are included in <strong>Appendix B–C</strong>; diffs and rationales are noted inline.</p></li>
 </ul>
 <p><strong>Limits &amp; authenticity.</strong> All facts (education, work history, skills) reflect my real background. I verified every claim, removed hallucinations, and kept authorship control. The website is built locally with Quarto and published via GitHub Pages. I am accountable for the final content.</p>
 <p><strong>Data &amp; privacy.</strong> No private or sensitive data was shared in prompts. No proprietary data was uploaded.</p>
@@ -305,21 +333,48 @@ Tone: honest, specific, first person. Output in Markdown (no title).</p>
 <section id="d2.-apa-style-references-samples" class="level3">
 <h3 class="anchored" data-anchor-id="d2.-apa-style-references-samples">D2. APA-Style References (samples)</h3>
 <ul>
-<li>OpenAI. (2025). <em>ChatGPT (Nov 2025 version) [Large language model].</em> https://chat.openai.com/</li>
-<li>Posit Software, PBC. (2025). <em>Quarto documentation: Websites.</em> https://quarto.org/docs/websites/</li>
-<li>American Psychological Association. (2020). <em>Publication manual of the American Psychological Association</em> (7th ed.).</li>
+<li><p>OpenAI. (2025). <em>ChatGPT (Nov 2025 version) [Large language model].</em> https://chat.openai.com/</p></li>
+<li><p>Posit Software, PBC. (2025). <em>Quarto documentation: Websites.</em> https://quarto.org/docs/ websites/</p></li>
+<li><p>American Psychological Association. (2020). <em>Publication manual of the American Psychological Association</em> (7th ed.).</p></li>
 </ul>
 </section>
 </section>
 <section id="e-change-log-rationale" class="level2">
 <h2 class="anchored" data-anchor-id="e-change-log-rationale">E) Change Log &amp; Rationale</h2>
-<p><strong>E1. Major edits across drafts</strong> - <strong>Home:</strong> Replaced long intro with a concise value statement; added clear CTAs (View Resume, Projects, Download PDF). - <strong>Resume:</strong> Tightened bullets to action-first outcomes; limited to 2–3 bullets/role; removed filler. - <strong>Projects:</strong> Standardized 3-card layout (Overview · Role · Outcome) for quick scanning. - <strong>Skills &amp; Certifications:</strong> Switched to compact “badges” for readability on mobile. - <strong>Contact:</strong> Simplified to essentials (location, email, LinkedIn, resume link). - <strong>Theme/UX:</strong> Added soft gradient background, improved spacing, and consistent heading scale.</p>
-<p><strong>E2. Why these changes? (Rationales)</strong> - <strong>Clarity &amp; scannability:</strong> Recruiters skim; compact sections and consistent patterns reduce cognitive load. - <strong>Outcome focus:</strong> Bullets emphasize impact, not tasks—clearer value for HR roles. - <strong>Accessibility:</strong> Larger line-height, badge contrast, and predictable navigation improve readability. - <strong>Authenticity:</strong> All facts (work history, skills) were verified and kept in my own voice.</p>
-<p><strong>E3. What I did NOT include (and why)</strong> - <strong>Leadership/Community/Publication pages:</strong> Deferred to future iterations to keep scope manageable and maintain quality. - <strong>Long-form narrative:</strong> Avoided long paragraphs in Resume/Projects to favor scannable content.</p>
-<p><strong>E4. Risks &amp; mitigations</strong> - <strong>Risk:</strong> Visual polish might distract from content.<br>
-<strong>Mitigation:</strong> Kept color accents subtle, prioritized typography and spacing. - <strong>Risk:</strong> Overfitting to one audience.<br>
-<strong>Mitigation:</strong> Kept language professional-general; industry specifics live inside project cards.</p>
-<p><strong>E5. Evidence of authorship</strong> - All data points (dates, roles, responsibilities) map to my CV and personal records. - Prompts and selected outputs are archived in this Appendix (Sections B–C). - Local build logs and commit history show progressive edits (see Git history timeline).</p>
+<p><strong>E1. Major edits across drafts</strong></p>
+<ul>
+<li><p><strong>Home:</strong> Replaced long intro with a concise value statement; added clear CTAs (View Resume, Projects, Download PDF).</p></li>
+<li><p><strong>Resume:</strong> Tightened bullets to action-first outcomes; limited to 2–3 bullets/role; removed filler.</p></li>
+<li><p><strong>Projects:</strong> Standardized 3-card layout (Overview · Role · Outcome) for quick scanning.</p></li>
+<li><p><strong>Skills &amp; Certifications:</strong> Switched to compact “badges” for readability on mobile.</p></li>
+<li><p><strong>Contact:</strong> Simplified to essentials (location, email, LinkedIn, resume link).</p></li>
+<li><p><strong>Theme/UX:</strong> Added soft gradient background, improved spacing, and consistent heading scale.</p></li>
+</ul>
+<p><strong>E2. Why these changes? (Rationales)</strong></p>
+<ul>
+<li><p><strong>Clarity &amp; scannability:</strong> Recruiters skim; compact sections and consistent patterns reduce cognitive load.</p></li>
+<li><p><strong>Outcome focus:</strong> Bullets emphasize impact, not tasks—clearer value for HR roles.</p></li>
+<li><p><strong>Accessibility:</strong> Larger line-height, badge contrast, and predictable navigation improve readability.</p></li>
+<li><p><strong>Authenticity:</strong> All facts (work history, skills) were verified and kept in my own voice.</p></li>
+</ul>
+<p><strong>E3. What I did NOT include (and why)</strong></p>
+<ul>
+<li><p><strong>Leadership/Community/Publication pages:</strong> Deferred to future iterations to keep scope manageable and maintain quality.</p></li>
+<li><p><strong>Long-form narrative:</strong> Avoided long paragraphs in Resume/Projects to favor scannable content.</p></li>
+</ul>
+<p><strong>E4. Risks &amp; mitigations</strong></p>
+<ul>
+<li><p><strong>Risk:</strong> Visual polish might distract from content.<br>
+<strong>Mitigation:</strong> Kept color accents subtle, prioritized typography and spacing.</p></li>
+<li><p><strong>Risk:</strong> Overfitting to one audience.<br>
+<strong>Mitigation:</strong> Kept language professional-general; industry specifics live inside project cards.</p></li>
+</ul>
+<p><strong>E5. Evidence of authorship</strong></p>
+<ul>
+<li><p>All data points (dates, roles, responsibilities) map to my CV and personal records.</p></li>
+<li><p>Prompts and selected outputs are archived in this Appendix (Sections B–C).</p></li>
+<li><p>Local build logs and commit history show progressive edits (see Git history timeline).</p></li>
+</ul>
 <hr>
 
 
