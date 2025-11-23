@@ -73,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed reflection fullcontent quarto-light">
+<body class="nav-fixed reflection quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -113,6 +113,16 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Contact</span></a>
   </li>  
 </ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./reflection.html" aria-current="page"> 
+<span class="menu-text">Reflection</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./appendix.html"> 
+<span class="menu-text">Appendix</span></a>
+  </li>  
+</ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
@@ -123,7 +133,15 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#reflection-on-building-a-multi-page-mba-portfolio-with-llms-400-words" id="toc-reflection-on-building-a-multi-page-mba-portfolio-with-llms-400-words" class="nav-link active" data-scroll-target="#reflection-on-building-a-multi-page-mba-portfolio-with-llms-400-words">Reflection on Building a Multi-Page MBA Portfolio with LLMs (≈400 words)</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -146,13 +164,17 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><strong>LLM Use — Reflection (approx. 350 words)</strong></p>
-<p>Expanding my portfolio into a multi-page site clarified the information architecture and reduced cognitive load for visitors. The navbar gave me a stable mental model: Home for quick context, Resume for depth, Projects for evidence, Skills &amp; Certifications for proof, and Contact for calls-to-action. As I added pages, I learned to limit each page to a tight purpose and to use recurring visual patterns (cards, badges, headings) so navigation felt consistent.</p>
-<p>An LLM helped most with brainstorming and rephrasing. I used the model to generate site-map variations, section outlines, and first-draft copy. This saved time and improved fluency, but I treated the output as a starting point—not as the source of truth. To ensure authenticity and accuracy, I replaced generic phrasing with my real data (titles, dates, responsibilities, tools), verified every claim against my resume and coursework, and removed anything that sounded unearned. I also added concrete context from my experience (where possible, metrics or outcomes). Finally, I included an Appendix that stores the prompts and the unedited LLM drafts to make the AI contribution transparent.</p>
-<p>On the design side, I aimed for a professional but approachable aesthetic using pastel gradients and soft cards. I added accessible alt text for images, meaningful link labels, and a clear heading hierarchy. I tested keyboard focus and avoided text over low-contrast backgrounds. The site uses Quarto with Markdown for maintainability; I chose simple CSS (not SCSS) and a small IntersectionObserver script so content remains visible even if JavaScript fails.</p>
-<p>Next, I plan to add richer evidence (links to PDFs, brief case write-ups), collect more concrete metrics for key achievements, and expand accessibility checks (e.g., color contrast, aria-labels on buttons). I also want to experiment with a search component for quicker navigation and add a downloadable one-page resume in addition to my full CV PDF. Overall, the multi-page structure feels more professional and scannable. The LLM is most helpful for ideation and polishing; accuracy and voice remain my responsibility.</p>
+<section id="reflection-on-building-a-multi-page-mba-portfolio-with-llms-400-words" class="level3">
+<h3 class="anchored" data-anchor-id="reflection-on-building-a-multi-page-mba-portfolio-with-llms-400-words">Reflection on Building a Multi-Page MBA Portfolio with LLMs (≈400 words)</h3>
+<p>Expanding my single-page portfolio into a multi-page site required clearer structure, reusable components, and more disciplined content. Large Language Models (LLMs) helped me brainstorm a complete site map (Home, Resume, Projects/Case Studies, Skills &amp; Certifications, Contact, plus Appendix and Reflection) and quickly draft initial copy for each page. Compared with the first assignment, using LLMs for this version worked better because I asked the model for page-by-page outlines and voice/tone constraints (concise, recruiter-friendly, action-verb bullets). This produced drafts I could then edit for accuracy and style.</p>
+<p>What improved as I added pages was my workflow: I created short prompts for each section (e.g., “rewrite for HR Compensation &amp; Benefits focus,” “3 bullets per project with Overview/Role/Outcome”), then iterated. The model was especially helpful at tightening language in my Resume and giving a consistent structure for Projects (Overview → Role → Outcome). It was less helpful for highly personal claims; those needed my own words and evidence.</p>
+<p>To ensure authenticity and accuracy, I followed three rules. First, I never pasted confidential information; I summarized or anonymized as needed. Second, I verified factual content (employment dates, program names, and tools used) against my own records. Third, I clearly labeled AI involvement: this Reflection explains where an LLM contributed, and the Appendix includes prompts and drafts with my edits annotated.</p>
+<p>For design and accessibility, I used Quarto for structure and a custom CSS theme for color and spacing. I kept headings in a logical order, avoided long paragraphs, provided descriptive link text (e.g., “Download Resume (PDF)”), and added <code>alt</code> text to my headshot for screen readers. I also tested keyboard navigation and ensured sufficient color contrast for legibility.</p>
+<p>To maintain quality, I saved the model’s drafts in the Appendix and documented changes (Kept / Edited / Removed). I also checked for bias or over-claiming and toned down anything that sounded like marketing fluff without evidence. Finally, I exported the site to GitHub Pages and verified that internal links, file paths (e.g., <code>docs/</code>), and downloadable assets worked.</p>
+<p>Overall, the LLM best supported me as a fast ideation and editing partner. The final content reflects my voice, validated facts, and professional focus areas—particularly HR Compensation &amp; Benefits and my current culinary experience—presented in a structured, accessible website that I can keep extending.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

@@ -11,7 +11,7 @@
     "href": "reflection.html",
     "title": "Reflection",
     "section": "",
-    "text": "LLM Use — Reflection (approx. 350 words)\nExpanding my portfolio into a multi-page site clarified the information architecture and reduced cognitive load for visitors. The navbar gave me a stable mental model: Home for quick context, Resume for depth, Projects for evidence, Skills & Certifications for proof, and Contact for calls-to-action. As I added pages, I learned to limit each page to a tight purpose and to use recurring visual patterns (cards, badges, headings) so navigation felt consistent.\nAn LLM helped most with brainstorming and rephrasing. I used the model to generate site-map variations, section outlines, and first-draft copy. This saved time and improved fluency, but I treated the output as a starting point—not as the source of truth. To ensure authenticity and accuracy, I replaced generic phrasing with my real data (titles, dates, responsibilities, tools), verified every claim against my resume and coursework, and removed anything that sounded unearned. I also added concrete context from my experience (where possible, metrics or outcomes). Finally, I included an Appendix that stores the prompts and the unedited LLM drafts to make the AI contribution transparent.\nOn the design side, I aimed for a professional but approachable aesthetic using pastel gradients and soft cards. I added accessible alt text for images, meaningful link labels, and a clear heading hierarchy. I tested keyboard focus and avoided text over low-contrast backgrounds. The site uses Quarto with Markdown for maintainability; I chose simple CSS (not SCSS) and a small IntersectionObserver script so content remains visible even if JavaScript fails.\nNext, I plan to add richer evidence (links to PDFs, brief case write-ups), collect more concrete metrics for key achievements, and expand accessibility checks (e.g., color contrast, aria-labels on buttons). I also want to experiment with a search component for quicker navigation and add a downloadable one-page resume in addition to my full CV PDF. Overall, the multi-page structure feels more professional and scannable. The LLM is most helpful for ideation and polishing; accuracy and voice remain my responsibility."
+    "text": "Reflection on Building a Multi-Page MBA Portfolio with LLMs (≈400 words)\nExpanding my single-page portfolio into a multi-page site required clearer structure, reusable components, and more disciplined content. Large Language Models (LLMs) helped me brainstorm a complete site map (Home, Resume, Projects/Case Studies, Skills & Certifications, Contact, plus Appendix and Reflection) and quickly draft initial copy for each page. Compared with the first assignment, using LLMs for this version worked better because I asked the model for page-by-page outlines and voice/tone constraints (concise, recruiter-friendly, action-verb bullets). This produced drafts I could then edit for accuracy and style.\nWhat improved as I added pages was my workflow: I created short prompts for each section (e.g., “rewrite for HR Compensation & Benefits focus,” “3 bullets per project with Overview/Role/Outcome”), then iterated. The model was especially helpful at tightening language in my Resume and giving a consistent structure for Projects (Overview → Role → Outcome). It was less helpful for highly personal claims; those needed my own words and evidence.\nTo ensure authenticity and accuracy, I followed three rules. First, I never pasted confidential information; I summarized or anonymized as needed. Second, I verified factual content (employment dates, program names, and tools used) against my own records. Third, I clearly labeled AI involvement: this Reflection explains where an LLM contributed, and the Appendix includes prompts and drafts with my edits annotated.\nFor design and accessibility, I used Quarto for structure and a custom CSS theme for color and spacing. I kept headings in a logical order, avoided long paragraphs, provided descriptive link text (e.g., “Download Resume (PDF)”), and added alt text to my headshot for screen readers. I also tested keyboard navigation and ensured sufficient color contrast for legibility.\nTo maintain quality, I saved the model’s drafts in the Appendix and documented changes (Kept / Edited / Removed). I also checked for bias or over-claiming and toned down anything that sounded like marketing fluff without evidence. Finally, I exported the site to GitHub Pages and verified that internal links, file paths (e.g., docs/), and downloadable assets worked.\nOverall, the LLM best supported me as a fast ideation and editing partner. The final content reflects my voice, validated facts, and professional focus areas—particularly HR Compensation & Benefits and my current culinary experience—presented in a structured, accessible website that I can keep extending."
   },
   {
     "objectID": "mba-portfolio-clean.html",
@@ -37,37 +37,37 @@
   {
     "objectID": "appendix.html",
     "href": "appendix.html",
-    "title": "Appendix — LLM Site Map & Drafts",
+    "title": "Appendix — LLM Site Map, Prompts, Drafts & Revisions",
     "section": "",
-    "text": "Disclosure: The content inside the gray blocks below was generated by an LLM (ChatGPT) and is included verbatim for transparency. I revised the live site in my own words."
+    "text": "Purpose / Disclosure. This appendix preserves my LLM-assisted site map, prompts, and initial drafts, with annotations that show how I revised the content before publishing. All published pages were edited for accuracy, tone, and fit."
   },
   {
-    "objectID": "appendix.html#a-prompts-used-verbatim",
-    "href": "appendix.html#a-prompts-used-verbatim",
-    "title": "Appendix — LLM Site Map & Drafts",
-    "section": "A) Prompt(s) used (verbatim)",
-    "text": "A) Prompt(s) used (verbatim)"
+    "objectID": "appendix.html#a-site-map-llm-brainstorm-final",
+    "href": "appendix.html#a-site-map-llm-brainstorm-final",
+    "title": "Appendix — LLM Site Map, Prompts, Drafts & Revisions",
+    "section": "A) Site Map (LLM Brainstorm → Final)",
+    "text": "A) Site Map (LLM Brainstorm → Final)\nLLM Brainstorm (verbatim):\nFinal site structure (published): - Home - Resume - Projects / Case Studies - Skills & Certifications - Contact - Reflection - Appendix\nNotes (Kept / Edited / Removed): - Kept: Core five pages (Home, Resume, Projects, Skills, Contact). - Edited: Added Reflection and Appendix for transparency and assignment requirements. - Removed: Leadership/Community/Publication (deferred for a future update)."
   },
   {
-    "objectID": "appendix.html#b-llm-generated-site-map-verbatim",
-    "href": "appendix.html#b-llm-generated-site-map-verbatim",
-    "title": "Appendix — LLM Site Map & Drafts",
-    "section": "B) LLM-generated site map (verbatim)",
-    "text": "B) LLM-generated site map (verbatim)"
+    "objectID": "appendix.html#b-prompts-i-provided-to-the-llm-selected-verbatim",
+    "href": "appendix.html#b-prompts-i-provided-to-the-llm-selected-verbatim",
+    "title": "Appendix — LLM Site Map, Prompts, Drafts & Revisions",
+    "section": "B) Prompts I Provided to the LLM (Selected, Verbatim)",
+    "text": "B) Prompts I Provided to the LLM (Selected, Verbatim)\n\nB1. Global Structure Prompt\n\n\nB2. Home/About Tone Prompt\n\n\nB3. Resume Tightening Prompt\n\n\nB4. Projects Formatting Prompt\n\n\nB5. Skills/Badges Prompt\n\n\nB6. Reflection Prompt"
   },
   {
-    "objectID": "appendix.html#c-llm-generated-section-drafts-verbatim",
-    "href": "appendix.html#c-llm-generated-section-drafts-verbatim",
-    "title": "Appendix — LLM Site Map & Drafts",
-    "section": "C) LLM-generated section drafts (verbatim)",
-    "text": "C) LLM-generated section drafts (verbatim)"
+    "objectID": "appendix.html#c-llm-drafts-by-page-verbatim-excerpts-my-annotations",
+    "href": "appendix.html#c-llm-drafts-by-page-verbatim-excerpts-my-annotations",
+    "title": "Appendix — LLM Site Map, Prompts, Drafts & Revisions",
+    "section": "C) LLM Drafts by Page (Verbatim Excerpts) + My Annotations",
+    "text": "C) LLM Drafts by Page (Verbatim Excerpts) + My Annotations\n\nHow to read this section: I paste the raw LLM excerpt in a gray code block, then list what I Kept, Edited, or Removed before publishing.\n\n\nC1. Home (Draft → Published)\nLLM Draft (verbatim excerpt):\nMy Edits (Kept / Edited / Removed): - Kept: People-centric framing; C&B emphasis; Vancouver context; calls-to-action. - Edited: Shortened sentences; added UCW mention; aligned tone with my voice. - Removed: Vague phrases without evidence.\n\n\n\nC2. Resume (Draft → Published)\nLLM Draft bullets (verbatim):\nMy Edits: - Kept: Action→result structure; focus on Compensation & Benefits and employee services. - Edited: Titles, dates, scope, and tools to match my records; tightened verbs. - Removed: Any outcomes I could not verify.\n\n\n\nC3. Projects / Case Studies (Draft → Published)\nLLM Draft (template + samples, verbatim):\nMy Edits: - Kept: Overview/Role/Outcome structure; three-card layout. - Edited: Clarified academic context; trimmed jargon; aligned scope to my contributions. - Removed: Implied metrics I don’t yet have.\n\n\n\nC4. Skills & Certifications (Draft → Published)\nLLM Draft (verbatim):\nMy Edits: - Kept: Skill list and grouping. - Edited: Order and badge styling for scannability. - Removed: Duplicates.\n\n\n\nC5. Contact (Draft → Published)\nLLM Draft (verbatim):\nMy Edits: - Kept: Items and labels. - Edited: Accessibility attributes (rel=“noopener”, aria-labels); verified links/file names. - Removed: None.\n\n\n\nC6. Reflection (Draft → Published)\nLLM Draft (verbatim excerpt):\nMy Edits: - Kept: Core claims about workflow and benefits. - Edited: Structured into short paragraphs; added integrity steps and specific improvements. - Removed: Redundancy and vague language."
   },
   {
-    "objectID": "appendix.html#d-my-edits-what-i-changed-and-why",
-    "href": "appendix.html#d-my-edits-what-i-changed-and-why",
-    "title": "Appendix — LLM Site Map & Drafts",
-    "section": "D) My edits (what I changed and why)",
-    "text": "D) My edits (what I changed and why)\n\nReplaced generic phrasing with my actual roles, dates, and responsibilities.\nAdded real examples from HR and culinary experience.\nAdjusted tone to match my voice and removed any overstatement.\nApplied accessible alt text and clearer link labels."
+    "objectID": "appendix.html#d-ai-use-integrity-statement-revision-log",
+    "href": "appendix.html#d-ai-use-integrity-statement-revision-log",
+    "title": "Appendix — LLM Site Map, Prompts, Drafts & Revisions",
+    "section": "D) AI Use & Integrity Statement + Revision Log",
+    "text": "D) AI Use & Integrity Statement + Revision Log\nIntegrity Statement. I used ChatGPT to brainstorm site structure, generate first-draft text (Home intro, Resume bullet tightening, Projects templates), and polish language. I verified all facts (dates, titles, employers, locations, tools) against my records, avoided confidential details, and removed any unverified claims. This appendix includes prompts and drafts (verbatim) and my edits (Kept / Edited / Removed). Final published content is in my own words.\nRevision Log (key changes):\n\n\n\n\n\n\n\n\n\n\nArea\nKept\nEdited\nRemoved\nRationale\n\n\n\n\nHome\nPeople-centric, C&B focus\nTone; UCW/Vancouver mention; CTAs\nGeneric phrases\nFit to profile; clarity\n\n\nResume\nAction→result bullets\nDates/titles/tools; verbs\nUnverifiable outcomes\nAccuracy & evidence\n\n\nProjects\nOverview/Role/Outcome\nContext; plain language\nJargon/overstatement\nComparable, scannable\n\n\nSkills\nSkill list\nOrder; badge styling\nDuplicates\nRecruiter-friendly scan\n\n\nContact\nItems & labels\nA11y attributes; links\n—\nUsability & accessibility\n\n\nReflection\nWorkflow insights\nIntegrity steps; specifics\nRedundancy\nTransparency & rigor"
   },
   {
     "objectID": "index.html",
