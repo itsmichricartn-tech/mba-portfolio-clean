@@ -1,41 +1,17 @@
 ---
 title: "Home"
-page-layout: full
-image: headshot.jpg
+toc: false
 ---
 
-<!-- Hero -->
-<div class="soft-hero lush">
-  <div style="display:flex; gap:1rem; align-items:center;">
-    <img src="headshot.jpg" alt="Professional headshot of Michelle Marie Ricart" class="headshot" width="128" height="128"/>
-    <div>
-      <h1>Michelle Marie Ricart Naranjo</h1>
-      <p><em>MBA Candidate · University Canada West (UCW) · Vancouver, BC</em></p>
-    </div>
-  </div>
+![](headshot.jpg){.headshot width=120 height=120}
 
-  <p>
-    People-centric HR professional with experience in
-    <strong>Compensation &amp; Benefits</strong>, employee services, and onboarding.
-    Currently developing culinary skills in Vancouver. I focus on clear processes
-    and reliable service to support better business decisions.
-  </p>
+# Michelle Marie Ricart Naranjo
+*MBA Candidate · University Canada West (UCW) · Vancouver, BC*
 
-  <div class="footer-cta" style="margin-top:.5rem;">
-    <a class="btn btn-primary" href="resume.html">View Resume</a>
-    <a class="btn btn-outline-secondary" href="projects.html">Projects</a>
-    <a class="btn btn-outline-secondary" href="appendix.html">Appendix</a>
-  </div>
-</div>
+People-centric HR professional with experience in **Compensation & Benefits**, employee services, and onboarding. I focus on clear processes and reliable service to support better business decisions.
 
-## Highlights
-- 3+ years in HR (Shell DR): employee support, documentation, and monthly metrics.
-- FoodSafe Level 1 (2025) and hands-on practice in high-pace kitchens.
-- Clear communication, teamwork, and quality mindset.
-
-## Current Focus
-<span class="badge">Compensation &amp; Benefits</span>
-<span class="badge">Employee Experience</span>
-<span class="badge">HR Analytics</span>
-<span class="badge">HR in Canada</span>
-
+::: {.cta}
+[View Resume](resume.html){.btn .btn-primary}
+[Projects](projects.html){.btn .btn-outline-secondary}
+[Appendix](appendix.html){.btn .btn-outline-secondary}
+:::
