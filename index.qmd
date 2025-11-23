@@ -2,17 +2,6 @@
 title: "Home"
 body-classes: home
 ---
-```{=html}
-<div class="hero-banner">
-  <div class="hero-inner">
-    <h1>Michelle Marie Ricart Naranjo</h1>
-    <p class="hero-sub">MBA Candidate · University Canada West (UCW) · Vancouver, BC</p>
-  </div>
-  <img class="hero-avatar"
-       src="headshot.jpg"
-       alt="Professional headshot of Michelle Marie Ricart">
-</div>
-
 
 <div class="soft-hero lush">
   <img src="headshot.jpg" alt="Professional headshot of Michelle Marie Ricart" class="headshot" width="148" height="148">
